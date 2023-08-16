@@ -27,11 +27,11 @@ const Footer = () => {
             </ul>
 
             <div className='footer__socials' >
-                <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='_blank' > <FaLinkedinIn /> </a>
-                <a href='https://facebook.com/Awadhes11803932' target='_blank' > <FaFacebookF /> </a>
-                <a href='https://www.instagram.com/at_official_210321' target='_blank' > <FiInstagram /> </a>
-                <a href='https://twitter.com/Awadhes11803932' target='_blank' > <IoLogoTwitter /> </a>
-                <a href='https://github.com/awadhesh-kumar-verma' target='_blank' > < BsGithub /> </a>
+                <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='' > <FaLinkedinIn /> </a>
+                <a href='https://facebook.com/Awadhes11803932' target='' > <FaFacebookF /> </a>
+                <a href='https://www.instagram.com/at_official_210321' target='' > <FiInstagram /> </a>
+                <a href='https://twitter.com/Awadhes11803932' target='' > <IoLogoTwitter /> </a>
+                <a href='https://github.com/awadhesh-kumar-verma' target='' > < BsGithub /> </a>
             </div>
 
             <div className='footer__copyright' >

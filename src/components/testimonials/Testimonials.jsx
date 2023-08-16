@@ -15,21 +15,25 @@ import 'swiper/css/pagination';
 
 const data = [
     {
+        id:1,
         avatar: AVTR1,
         name: 'Tina Snow',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. eaque eos voluptatem eius dolorem maiores nihil at rem ullam reprehenderit qidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.'
     },
     {
+        id:2,
         avatar: AVTR2,
         name: 'Shatta Wale',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. eaque eos voluptatem eius dolorem maiores nihil at rem ullam reprehenderit qidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.'
     },
     {
+        id:3,
         avatar: AVTR3,
         name: 'Kwame Despite',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. eaque eos voluptatem eius dolorem maiores nihil at rem ullam reprehenderit qidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.'
     },
     {
+        id:4,
         avatar: AVTR4,
         name: 'Nana Ama McBrown',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. eaque eos voluptatem eius dolorem maiores nihil at rem ullam reprehenderit qidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.'

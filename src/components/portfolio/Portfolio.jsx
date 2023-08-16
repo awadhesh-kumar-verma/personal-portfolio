@@ -2,10 +2,10 @@ import React from 'react'
 import './portfolio.css';
 import IMG1 from '../../assets/portfolio1.jpeg';
 import IMG2 from '../../assets/To-do-list.png';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+// import IMG3 from '../../assets/portfolio3.jpg';
+// import IMG4 from '../../assets/portfolio4.jpg';
+// import IMG5 from '../../assets/portfolio5.png';
+// import IMG6 from '../../assets/portfolio6.jpg';
 import {PiProjectorScreenChartLight} from 'react-icons/pi';
 
 // DO NOT USE THE IMAGES IN THE PRODUCTION
@@ -71,8 +71,8 @@ const Portfolio = () => {
                             </div>
                             <h3> {title} </h3>
                             <div className='portfolio__item-cta' >
-                                <a href={github} className='btn' target='_blank'>Github</a>
-                                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                <a href={github} className='btn' target=''>Github</a>
+                                <a href={demo} className='btn btn-primary' target=''>Live Demo</a>
                             </div>
                         </article>
                     )
