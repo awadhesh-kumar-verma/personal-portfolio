@@ -7,7 +7,7 @@ import {HiArrowNarrowRight} from 'react-icons/hi';
 
 const Header = () => {
     return (
-        <header>
+        <header id="home">
             <div className='container header__container'>
                 <h5>Hello I'm</h5>
                 <p>Awadhesh Kumar Verma</p>
