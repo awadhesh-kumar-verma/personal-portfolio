@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css';
 import ME from '../../assets/me-about.jpg';
 import { FiAward } from 'react-icons/fi';
-import { PiCertificateBold } from 'react-icons/pi';
+//import { PiCertificateBold } from 'react-icons/pi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { BiUser } from 'react-icons/bi';
 
@@ -35,14 +35,13 @@ const About = () => {
                             <small>10+ Completed</small>
                         </article>
 
-                        <article className='about__card' >
+                        {/* <article className='about__card' >
                             <PiCertificateBold className='about__icon' />
                             <h5>Internships</h5>
-                            <small>&nbsp;&nbsp;&nbsp;&nbsp; - InternPe &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small> <br/>
-                            <small>&nbsp;&nbsp;&nbsp;&nbsp; - Bharat Intern &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small><br/>
+                            <small>&nbsp;&nbsp;&nbsp;&nbsp; - InternPe &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small> 
+                            <small>&nbsp;&nbsp;&nbsp;&nbsp; - Bharat Intern &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>
                             <small>&nbsp;&nbsp;&nbsp;&nbsp; - Effervescene, IIIT Allahabad</small>
-
-                        </article>
+                        </article> */}
                     </div>
 
                     <p>
