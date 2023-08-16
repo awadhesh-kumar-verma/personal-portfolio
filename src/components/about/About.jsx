@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css';
 import ME from '../../assets/me-about.jpg';
 import {FiAward} from 'react-icons/fi';
-// import {FiUsers} from 'react-icons/fi';
+import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
 import {BiUser} from 'react-icons/bi';
 
@@ -27,11 +27,13 @@ const About = () => {
                         <small>2+ Years Working</small>
                     </article>
 
-                    {/* <article className='about__card' >
+                    <article className='about__card' >
                         <FiUsers className='about__icon' />
-                        <h5>Clients</h5>
-                        <small>200+ Clients</small>
-                    </article> */}
+                        <h5>Internships</h5>
+                        <small>▶️ InternPe</small>
+                        <small>▶️ Bharat Intern</small>
+                        <small>▶️ Effervescene, IIIT Allahabad</small>
+                    </article>
 
                     <article className='about__card' >
                         <VscFolderLibrary className='about__icon' />
