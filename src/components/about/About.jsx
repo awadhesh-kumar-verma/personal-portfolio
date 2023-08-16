@@ -29,9 +29,9 @@ const About = () => {
 
                     <article className='about__card' >
                         <FiUsers className='about__icon' />
-                        <h5>Internships</h5>
-                        <small>▶️ InternPe</small>
-                        <small>▶️ Bharat Intern</small>
+                        <h5>Internships</h5> 
+                        <small>▶️ InternPe</small><br/>
+                        <small>▶️ Bharat Intern</small><br/>
                         <small>▶️ Effervescene, IIIT Allahabad</small>
                     </article>
 
