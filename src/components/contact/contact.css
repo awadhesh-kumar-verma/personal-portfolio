@@ -5,6 +5,23 @@
     gap: 12%;
 }
 
+#contact {
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #a0dbdb;
+}
+
+.btn2 {
+    margin-top: 25px;
+    height: 35px;
+    padding-bottom: 4.5px;
+}
+
+#contact h2 {
+    color: black;
+}
+
 #contact > h5 {
     color: white;
 }
@@ -23,9 +40,7 @@
 }
 
 .contact__option {
-    /* background: var(--color-bg-variant); */
     background: white;
-
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -50,27 +65,21 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.9rem;
-    /* color: var(--color-primary-variant); */
     color: rgb(52, 52, 144);
     font-weight: 500;
 
 }
 
 .contact__option a:hover {
-    /* color: var(--color-primary-variant); */
     color: rgb(52, 52, 144);
     font-weight: 700;
 }
 
 .contact__option h4 {
     color: black;
-
     font-size: 20px;
 }
 
-/* .contact__option h6 {
-    font-size: 12px;
-} */
 
 /* ############################# FORM ############################# */
 form {
@@ -86,9 +95,10 @@ textarea {
     border-radius: 0.5rem;
     background: transparent;
     /* border: 2px solid var(--color-primary-variant); */
-    border: 2px solid rgb(225, 219, 219);
+    /* border: 2px solid rgb(225, 219, 219); */
+    border: 1.5px solid white;
     resize: none;
-    color: var(--color-white);
+    color: black;
 }
 
 .mobile {

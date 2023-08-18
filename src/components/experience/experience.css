@@ -1,11 +1,29 @@
+#experience {
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
+#experience {
+    background-color: #f5f9ee;
+}
+
+.text-light1 {
+    color: var(--color-primary);
+}
+
+#experience h2 {
+    color: black;
+}
+
 #experience > h5 {
-    color: white;
+    color: rgb(47, 47, 135);
 }
 
 .experience__container > div {
@@ -19,8 +37,9 @@
 
 .experience__container > div:hover {
     background: transparent;
+    color: rgb(47, 47, 135);
     /* border-color: var(--color-primary-variant); */
-    border-color: white;
+    border-color: rgb(47, 47, 135);
     cursor: default;
 }
 

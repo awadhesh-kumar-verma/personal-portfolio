@@ -4,21 +4,28 @@
     gap: 2.5rem;
 }
 
+#portfolio {
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ff9c6d;
+}
+
 #portfolio > h5 {
     color: white;
 }
 
-.portfolio__item {
-    /* background: var(--color-bg-variant); */
-    background: white;
+#portfolio > h2 {
+    color: black;
+}
 
+.portfolio__item {
+    background: white;
     color: black;
     font-family: system-ui;
-
     padding: 1.2rem;
     border-radius: 2rem;
-    /* border: 1px solid transparent; */
-    border: 3px solid black;
+    border: 0 solid black;
     transition: var(--transition);
 }
 

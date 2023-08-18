@@ -4,20 +4,27 @@
     gap: 15%;
 }
 
+#about {
+    padding-bottom: 20px;
+    background-color: #3fc5f0;
+}
+
+#about h2 {
+    color: black;
+}
+
 #about > h5{
+    margin-top: -128px;
+    padding-top: 30px;
     color: white;
 }
 
 .about__me {
-    width: 100%;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    /* background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    ); */
     background: linear-gradient(
         45deg,
         transparent,
@@ -26,10 +33,10 @@
     );
     display: grid;
     place-items: center;
-
 }
 
 .about__me-image {
+    
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
@@ -41,59 +48,116 @@
 }
 
 .about__cards {
-    display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(2, 1fr);
-    
-    gap: 1.5rem;
+    display: flex;
+}
+
+.art {
+    margin-right: 10%;
 }
 
 .about__card {
-    /* background: var(--color-bg-variant); */
+    width: 45%;
     background: white;
-
     color: black;
-
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.3rem;
     text-align: center;
     transition: var(--transition);
 }
 
 .about__card:hover {
     background: transparent;
-
     color: white;
-
-    border-color: var(--color-primary-variant);
+    border-color: black;
     cursor: default;
 }
 
 .about__icon {
-    /* color: var(--color-primary); */
     color: rgb(56, 56, 176);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .about__card h5 {
-    font-size: 0.95rem;
+    font-family: system-ui;
+    font-size: 1.1rem;
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 500;
-    /* color: var(--color-light); */
     color: rgb(56, 56, 176);
 }
 
-.about__content p {
-    margin: 2rem 0 2.6rem; 
 
-    color: white;
+.intro {
+    margin: 2rem 0 2.6rem;
+    color: black;
     text-align: justify;
     font-family: system-ui;
+    padding: 1.5rem;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-weight: 500;
+}
+
+
+.internship {
+    margin-top: 38px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.intern {
+    font-size: 1.1rem;
+    font-family: system-ui;
+    width: 100%;
+    text-align: justify;
+    background: white;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    transition: var(--transition);
+}
+
+.intern:hover {
+    background: transparent;
+
+    color: white;
+
+    border-color: black;
+    cursor: default;
+}
+
+.intern div {
+    text-align: center;
+    color: rgb(56, 56, 176);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.intern li {
+    padding-left: 1.8rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(56, 56, 176);
+}
+
+.intern h5 {
+    font-size: 1.1rem;
+}
+
+.butt {
+    margin: 2rem 0 2.6rem;
+    text-align: justify;
+    padding: 1.5rem;
+    margin-top: -3rem;
+    margin-bottom: -10rem;
+    margin-left: 140px;
 }
 
 /* ####################### MEDIA QUERIES(MEDIUM DEVICES) ########################## */
@@ -104,13 +168,39 @@
     }
 
     .about__me {
-        width: 50%;
+        width: 40%;
         margin: 2rem auto 4rem;
     }
 
-    .about__content p {
+
+    .intro {
         margin: 1rem 0 1.5rem;
         font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #about > h5{
+        margin-top: -106px;
+        padding-top: 40px;
+    }
+
+    .intro {
+        padding-left: 6.95%;
+        padding-right: 6.95%;
+        padding-bottom: 0.5rem;
+    }
+
+    .butt {
+        margin-left: 6.95%;
+    }
+
+    .art {
+        margin-right: 38px;
+    }
+
+    .intern {
+        width: 100%;
     }
 }
 
@@ -130,8 +220,15 @@
         text-align: center;
     }
 
-    .about__content p {
+    
+    .intro {
         margin: 1.5rem 0;
-        font-weight: 400;
+        font-weight: 500;
+    }
+
+    .intern {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }

@@ -1,7 +1,10 @@
+#footer {
+    margin-top: 0;
+}
+
 footer {
-    /* background: rgb(18, 53, 123); */
-    background: rgb(7, 31, 80);
-    /* background: var(--color-primary); */
+    /* background: rgb(7, 31, 80); */
+    background: #111f4d;
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
