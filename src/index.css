@@ -17,9 +17,7 @@
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
-
     --transition: all 400ms ease;
-
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
@@ -34,9 +32,8 @@ html {
 }
 
 body {
-    /* font-family: 'Lobster', cursive; */
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    /* background: var(--color-bg); */
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
@@ -93,12 +90,9 @@ a:hover {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    /* padding: 0.50rem 1.5rem; */
     padding: 0.30rem 1.2rem;
-    /* border-radius: 0.4rem; */
     border-radius: 1.5rem;
     cursor: pointer;
-    /* border: 1.5px solid var(--color-primary); */
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     font-weight: 500;
@@ -111,9 +105,6 @@ a:hover {
 }
 
 .btn-primary {
-    /* background: var(--color-primary);
-    color: var(--color-bg); */
-
     background: black;
     color: white;
 }
