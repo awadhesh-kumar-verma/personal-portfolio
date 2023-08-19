@@ -48,10 +48,17 @@ const About = () => {
                 </div>
             </div>
             <p className='intro' >
-                &raquo; Pursuing Bachelors(B.Tech) via Computer Science, ability to work with C, C++, python, DSA and MERN Stack Development, Can work well under pressure and make the best of any situation and Passionate individual with great interpersonal and communication skills.
+                &raquo; Hi, I'm Awadhesh Kumar Verma! 🚀 , a passionate and motivated MERN Stack Developer 💻with a strong problem solving mindset🤝, Pursuing Bachelor's degree(B.Tech) via Computer Science💻.
+                <br/>
+                <br/>
+                &raquo; I have the ability🚰to work with C, C++, python, DSA and MERN Stack Development, Can work well under pressure and make the best😑of any situation and Passionate individual with great interpersonal and communication🎯skills.
+                <br/>
+                <br/>
+                &raquo; Feel free🆓to explore my projects on GitHub and connect with me on LinkedIn😑.
             </p>
 
-            <a href='#contact' className='btn btn-primary butt' >Let's Talk</a>
+            <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' className='butt btn btn-primary' >LinkedIn</a>
+            <a href='https://github.com/awadhesh-kumar-verma' className='btn btn-primary butt' >GitHub</a>
         </section>
     );
 };
