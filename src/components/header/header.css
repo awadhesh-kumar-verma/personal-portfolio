@@ -78,8 +78,8 @@ header p {
 /* ################ ME ############### */
 
 .me {
-    /* background: linear-gradient(var(--color-primary),transparent); */
-    background: linear-gradient(rgb(47, 47, 135),transparent);
+    background: linear-gradient(var(--color-primary),transparen);
+    /* background: linear-gradient(rgb(47, 47, 135),transparent); */
     width: 20rem;
     height: 22rem;
     position: absolute;
