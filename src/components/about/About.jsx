@@ -57,7 +57,7 @@ const About = () => {
                 &raquo; Feel free🆓to explore my projects on GitHub and connect with me on LinkedIn😑.
             </p>
 
-            <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' className='butt btn btn-primary' >LinkedIn</a>
+            <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' className='butt' >LinkedIn</a>
             <a href='https://github.com/awadhesh-kumar-verma' className='btn btn-primary butt' >GitHub</a>
         </section>
     );
