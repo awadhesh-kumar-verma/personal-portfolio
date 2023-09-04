@@ -30,7 +30,6 @@
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
-    /* border: 1px solid transparent; */
     border: 1px solid black;
     transition: var(--transition);
 }
@@ -38,7 +37,6 @@
 .experience__container > div:hover {
     background: transparent;
     color: rgb(47, 47, 135);
-    /* border-color: var(--color-primary-variant); */
     border-color: rgb(47, 47, 135);
     cursor: default;
 }

@@ -15,11 +15,6 @@ const Contact = () => {
     
         emailjs.sendForm('service_ghx7yjk', 'template_dncbe88', form.current, '0XGWXUnZwkegFso37')
         e.target.reset();
-        //   .then((result) => {
-        //       console.log(result.text);
-        //   }, (error) => {
-        //       console.log(error.text);
-        //   });
       };
     return (
         <section id='contact' >

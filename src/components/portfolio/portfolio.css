@@ -31,10 +31,7 @@
 
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
-
     border-color: black;
-    /* color: var(--color-primary-variant); */
-    /* background: transparent; */
 }
 
 .portfolio__item-image {
@@ -57,7 +54,7 @@
     font-weight: 700;
 }
 
-/* ######################### MEDIA QUERIES(MEDIAUM DEVICES) ############################# */
+
 @media screen and (max-width: 1024px) {
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
@@ -65,7 +62,7 @@
     }
 }
 
-/* ######################### MEDIA QUERIES(SMALL DEVICES) ############################# */
+
 @media screen and (max-width: 600px) {
     .portfolio__container {
         grid-template-columns: 1fr;
