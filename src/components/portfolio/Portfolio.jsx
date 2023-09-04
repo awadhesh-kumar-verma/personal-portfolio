@@ -18,55 +18,6 @@ const data = [
         title: 'To Do List',
         github: 'https://github.com/awadhesh-kumar-verma/To-di-list.github.io',
         demo: 'https://awadhesh-kumar-verma.github.io/To-di-list.github.io/'
-    },
-    {
-        id: 3,
-        image: IMG1,
-        title: 'Music Player 🎹 ',
-        github: 'https://github.com/awadhesh-kumar-verma/Music.github.io',
-        demo: 'https://awadhesh-kumar-verma.github.io/Music.github.io/'
-    },
-    {
-        id: 1,
-        image: IMG1,
-        title: 'Music Player 🎹 ',
-        github: 'https://github.com/awadhesh-kumar-verma/Music.github.io',
-        demo: 'https://awadhesh-kumar-verma.github.io/Music.github.io/'
-    },
-    {
-        id: 2,
-        image: IMG2,
-        title: 'To Do List',
-        github: 'https://github.com/awadhesh-kumar-verma/To-di-list.github.io',
-        demo: 'https://awadhesh-kumar-verma.github.io/To-di-list.github.io/'
-    },
-    {
-        id: 3,
-        image: IMG1,
-        title: 'Music Player 🎹 ',
-        github: 'https://github.com/awadhesh-kumar-verma/Music.github.io',
-        demo: 'https://awadhesh-kumar-verma.github.io/Music.github.io/'
-    },
-    {
-        id: 1,
-        image: IMG1,
-        title: 'Music Player 🎹 ',
-        github: 'https://github.com/awadhesh-kumar-verma/Music.github.io',
-        demo: 'https://awadhesh-kumar-verma.github.io/Music.github.io/'
-    },
-    {
-        id: 2,
-        image: IMG2,
-        title: 'To Do List',
-        github: 'https://github.com/awadhesh-kumar-verma/To-di-list.github.io',
-        demo: 'https://awadhesh-kumar-verma.github.io/To-di-list.github.io/'
-    },
-    {
-        id: 3,
-        image: IMG1,
-        title: 'Music Player 🎹 ',
-        github: 'https://github.com/awadhesh-kumar-verma/Music.github.io',
-        demo: 'https://awadhesh-kumar-verma.github.io/Music.github.io/'
     }
 ]
 
