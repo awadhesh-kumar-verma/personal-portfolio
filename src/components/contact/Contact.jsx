@@ -28,7 +28,7 @@ const Contact = () => {
                         <h4>Email</h4>
                         <h6>vermaavd17476765@gmail.com</h6>
                         {/* <button>Send a messase</button> */}
-                        <a href='mailto:vermaavd17476765@gmail.com' target=''>Send a message</a>
+                        <a href='mailto:vermaavd17476765@gmail.com' target=''> Send a message </a>
                     </article>
                     <article className='contact__option' >
                         <RiMessengerLine className='contact__option-icon' />
@@ -36,7 +36,7 @@ const Contact = () => {
                         {/* <h6>Facebook-Awadhes11803932</h6> */}
                         <a href='https://www.facebook.com/Awadhes11803932' target='' style={{color:'white',marginTop:-9}} className='a1' ><h6>Facebook-Awadhes11803932</h6></a>
                         <br/>
-                        <a href='https://m.me/Awadhes11803932' target=''>Send a message</a>
+                        <a href='https://m.me/Awadhes11803932' target=''> Send a message</a>
                     </article>
                     <article className='contact__option' >
                         <BsWhatsapp className='contact__option-icon' />
