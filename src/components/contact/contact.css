@@ -10,7 +10,7 @@
     margin-top: 0;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #a0dbdb;
+    background-color: #f5f9ee;
 }
 
 .btn2 {
@@ -24,13 +24,12 @@
 }
 
 #contact > h5 {
-    color: white;
+    color: black;
 }
 
 .contact__option h6 {
-    color: black;
-
-    font-size: 12px;
+    color: white;
+    font-size: 10px;
     font-weight: 450;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .contact__option {
-    background: white;
+    background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -58,17 +57,13 @@
 }
 
 .contact__option-icon {
-    color: black;
-
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .contact__option a {
-    margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.9rem;
-    color: rgb(52, 52, 144);
+    color: var(--color-primary);
     font-weight: 500;
 
 }
@@ -79,7 +74,6 @@
 }
 
 .contact__option h4 {
-    color: black;
     font-size: 20px;
 }
 
@@ -96,14 +90,19 @@ textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
-    border: 1.5px solid white;
+    background: white;
+    border: 1.4px solid black;
     resize: none;
     color: black;
 }
 
 .mobile {
     display: none;
+}
+
+
+.a1{
+    margin-bottom: -0.4rem;
 }
 
 /* ############################# MEDIA QUERIES(MEDIUM DEVICES) #################################3 */

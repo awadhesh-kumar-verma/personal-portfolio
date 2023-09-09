@@ -32,9 +32,9 @@ const Contact = () => {
                     </article>
                     <article className='contact__option' >
                         <RiMessengerLine className='contact__option-icon' />
-                        <h4>Messenger</h4>
+                        <h4 className='a1'>Messenger</h4>
                         {/* <h6>Facebook-Awadhes11803932</h6> */}
-                        <a href='https://www.facebook.com/Awadhes11803932' target='' style={{color:'white',marginTop:-9}} ><h6>Facebook-Awadhes11803932</h6></a>
+                        <a href='https://www.facebook.com/Awadhes11803932' target='' style={{color:'white',marginTop:-9}} className='a1' ><h6>Facebook-Awadhes11803932</h6></a>
                         <br/>
                         <a href='https://m.me/Awadhes11803932' target=''>Send a message</a>
                     </article>
@@ -52,7 +52,7 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail} >
                     <input type='text' name='name' placeholder='Your Full Name' required />
                     <input type='email' name='email' placeholder='Your Email' required />
-                    <textarea name='message' rows='7' placeholder='Your Message' required ></textarea>
+                    <textarea name='message' rows='9' placeholder='Your Message' required ></textarea>
                     <button type='submit' className='btn btn-primary btn2' >Send Message</button>
                 </form>
             </div>

@@ -5,7 +5,7 @@ header {
 }
 
 #home {
-    background-color: #fffdfb;
+    background-color: #feffdf;
 }
 
 .header__container {
@@ -81,10 +81,11 @@ header p {
     border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
     padding: 1.2rem 0.9rem 1.7rem 0.2rem;
+    border: 1px solid black;
 }
 
 .me:hover {
-    background-color: #f3bc77;
+    background-color: #e4840d;
 }
 
 /* ################ SCROLL DOWN ############### */
@@ -125,9 +126,8 @@ header p {
 
 .btn1:hover {
     background: var(--color-white);
-    color: black;
+    color: #ff9a3c;
     border-color: transparent;
-    /* border: 1px solid var(--color-primary); */
 }
 
 /* ################ MEDIA QUERIES(MEDIUM DEVICES) ############### */
