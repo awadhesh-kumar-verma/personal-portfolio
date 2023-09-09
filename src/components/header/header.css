@@ -5,7 +5,7 @@ header {
 }
 
 #home {
-    background-color: #feffdf;
+    background: radial-gradient(circle at 10% 20%, rgb(226, 240, 254) 0%, rgb(255, 247, 228) 90%);
 }
 
 .header__container {
@@ -31,7 +31,7 @@ header p {
 }
 
 .texti {
-    color: black;
+    color: var(--color-bg-variant);
 }
 
 .cta {
@@ -72,8 +72,8 @@ header p {
 
 
 .me {
-    /* background-color: #f3bc77; */
-    background-color: #ff9a3c;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
     width: 20rem;
     height: 20rem;
     position: absolute;
@@ -81,11 +81,11 @@ header p {
     border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
     padding: 1.2rem 0.9rem 1.7rem 0.2rem;
-    border: 1px solid black;
+    border: 3px solid white;
 }
 
 .me:hover {
-    background-color: #e4840d;
+    border-width: 4.5px;
 }
 
 /* ################ SCROLL DOWN ############### */
@@ -126,7 +126,7 @@ header p {
 
 .btn1:hover {
     background: var(--color-white);
-    color: #ff9a3c;
+    color: rgb(255, 67, 5);
     border-color: transparent;
 }
 
