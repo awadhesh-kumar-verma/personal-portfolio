@@ -19,13 +19,13 @@ import 'swiper/css/pagination';
 
 const data = [
     {
-        avatar: AVTR1
-    },
-    {
         avatar: AVTR2
     },
     {
         avatar: AVTR3
+    },
+    {
+        avatar: AVTR1
     },
     {
         avatar: AVTR4
