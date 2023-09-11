@@ -6,7 +6,7 @@ const HeaderSocials = () => {
     return (
         <div className='header__socials'>
             <a href='https://linkedin.com/in/awadhesh-kumar-verma-636982255'  target=''><BsLinkedin /></a>
-            <a href='https://github.com/vermaavd17476765' target=''><FaGithub /></a>
+            <a href='https://github.com/awadhesh-kumar-verma' target=''><FaGithub /></a>
         </div>
     );
 };
