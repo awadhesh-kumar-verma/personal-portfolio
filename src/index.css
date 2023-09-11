@@ -47,11 +47,14 @@ body {
 }
 
 h1, 
-h2, 
 h3, 
 h4, 
 h5 {
     font-weight: 500;
+}
+
+h2{
+    font-weight: 700;
 }
 
 h1 {
@@ -69,6 +72,9 @@ section > h5 {
 }
 
 section > h2 {
+
+    font-size: 27px;
+    
     color: var(--color-primary);
     margin-bottom: 3rem;
 }

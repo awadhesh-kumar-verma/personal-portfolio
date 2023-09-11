@@ -1,0 +1,124 @@
+.container.testimonials__container {
+    width: 50%;
+    height: auto;
+    /* padding-bottom: 3rem; */
+    margin-top: 0;
+}
+
+#testimonials{
+    margin-top: 0;
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+}
+
+#testimonials>h2{
+    padding-top: 0.8rem;
+    color: #d74908;
+    color: black;
+    font-weight: 700;
+}
+
+.client__avatar {
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.testimonial {
+    background-color: white;
+    text-align: center;
+    padding: 0.15rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.testimonial:hover{
+    background-color: rgb(204, 192, 192);
+}
+
+.client__review {
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+    background: rgb(11, 11, 132);
+}
+
+.back{
+    height: 3rem;
+}
+
+.container.testimonials__container {
+    margin-top: -1rem;
+}
+
+/* ############################### MEDIA QUERIES(MEDIUM DEVICES) ############################### */
+
+@media screen and (max-width: 1200px)
+{
+    .container.testimonials__container {
+        width: 55%;
+    }
+}
+
+
+@media screen and (max-width: 1100px)
+{
+    .container.testimonials__container {
+        width: 58%;
+    }
+}
+
+
+@media screen and (max-width: 1024px)
+{
+    .container.testimonials__container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 920px)
+{
+    .container.testimonials__container {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .container.testimonials__container {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .container.testimonials__container {
+        width: 80%;
+    }
+}
+
+/* ############################### MEDIA QUERIES(SMALL DEVICES) ############################### */
+@media screen and (max-width: 600px)
+{
+    .container.testimonials__container {
+        width: var(--container-width-sm);
+    } 
+    .client__review {
+        width: var(--container-width-sm);
+    } 
+
+    #testimonials{
+        margin-top: -2rem;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .container.testimonials__container {
+        width: 95%;
+    }
+}
