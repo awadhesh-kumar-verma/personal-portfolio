@@ -30,4 +30,16 @@ nav a:hover {
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
-} 
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        gap: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    nav {
+        gap: 0.4rem;
+    }
+}
