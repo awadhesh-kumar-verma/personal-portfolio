@@ -22,7 +22,6 @@ const Header = () => {
 
                     <a href='#contact' className='scroll__down'>Scroll Down &nbsp;<HiArrowNarrowRight /> </a>
                 </div>
-
             </div>
         </header>
     )
