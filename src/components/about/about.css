@@ -235,6 +235,10 @@
     .intern {
         width: 100%;
     }
+
+    .about__me-image {
+        border-width: 3px;
+    }
 }
 
 /* ####################### MEDIA QUERIES(SMALL DEVICES) ########################## */
@@ -268,5 +272,10 @@
     .butt {
         margin-left: 6.95%;
         margin-right: 0;
+    }
+
+    
+    .about__me-image {
+        border-width: 2.7px;
     }
 }
