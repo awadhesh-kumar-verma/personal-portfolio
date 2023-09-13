@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/me1.png';
+import ME from '../../assets/awad.png';
 import HeaderSocials from './HeaderSocials';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 

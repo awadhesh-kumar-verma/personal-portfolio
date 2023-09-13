@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import ME from '../../assets/me-about.jpg';
+import ME from '../../assets/awad1.png';
 import { FiAward } from 'react-icons/fi';
 import { PiCertificateBold } from 'react-icons/pi';
 import { VscFolderLibrary } from 'react-icons/vsc';
