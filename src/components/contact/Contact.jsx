@@ -19,7 +19,7 @@ const Contact = () => {
     return (
         <section id='contact' >
             <h5>Get In Touch</h5>
-            <h2> <BiMessageSquareDetail/> Contact Me</h2>
+            <h2> <BiMessageSquareDetail/> Cont<span className='cont' >act Me</span></h2>
 
             <div className='container contact__container' >
                 <div className='contact__options' >

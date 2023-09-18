@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import ME from '../../assets/awad1.png';
+import ME from '../../assets/awad1 (1).png';
 import { FiAward } from 'react-icons/fi';
 import { PiCertificateBold } from 'react-icons/pi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -10,7 +10,7 @@ const About = () => {
     return (
         <section id='about' >
             <h5>Get to Know</h5>
-            <h2> <BiUser /> About Me</h2>
+            <h2> <BiUser /> Abo<span className='about2' >ut Me</span></h2>
 
             <div className='container about__container' >
                 <div className='about__me' >

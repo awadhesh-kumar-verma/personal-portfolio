@@ -8,12 +8,12 @@
     margin-top: 0;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #ff9c6d;
-    /* background-color: #dfddd2; */
+    /* background-color: #ff9c6d; */
+    background: #e1eeff;
 }
 
 #portfolio > h5 {
-    color: white;
+    color: black;
 }
 
 #portfolio > h2 {
@@ -53,6 +53,10 @@
 
 .portfolio__item-cta:hover {
     font-weight: 700;
+}
+
+.port{
+    color: rgb(13, 13, 213);
 }
 
 

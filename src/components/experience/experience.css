@@ -11,7 +11,8 @@
 }
 
 #experience {
-    background-color: #e1f4f3;
+    /* background-color: #e1f4f3; */
+    background-color: #fcfefe;
 }
 
 .text-light1 {
@@ -61,6 +62,10 @@
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary); 
+}
+
+.exe{
+    color: rgb(232, 90, 42);
 }
 
 /* ###################### MEDIA QUERIES(MEDIUM DEVICES) ####################### */

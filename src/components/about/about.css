@@ -6,7 +6,7 @@
 
 #about {
     padding-bottom: 45px;
-    background-color: #dfddd2;
+    background: #e1eeff;
 }
 
 #about h2 {
@@ -63,9 +63,16 @@
 
 .about__card {
     width: 45%;
-    background: var(--color-bg-variant);
-    color: white;
-    border: 1px solid transparent;
+    /* background: var(--color-bg-variant); */
+
+    background: white;
+    color: var(--color-bg-variant);
+    border: 3px solid #27519f;
+    border-right-color: rgb(232, 90, 42);
+    border-left-color: rgb(232, 90, 42);
+
+    /* color: white; */
+    /* border: 1px solid transparent; */
     border-radius: 1rem;
     padding: 1.3rem;
     padding-top: 0.7rem;
@@ -75,26 +82,41 @@
 }
 
 .about__card:hover {
-    color: black;
-    border-color: black;
-    background: transparent;
+    /* color: black; */
+    /* border-color: black; */
+    /* background: transparent; */
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
+    /* color: var(--color-primary); */
+    color: rgb(54, 51, 51);
+    font-size: 1.5rem;
+}
+
+.about__icon:hover {
+    font-size: 1.7rem;
 }
 
 .about__card h5 {
     font-family: system-ui;
     font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.about__card h5:hover {
+    font-size: 1.2rem;
 }
 
 .about__card small {
     font-size: 0.8rem;
-    font-weight: 500;
-    color: var(--color-primary);
+    font-weight: 600;
+    /* color: var(--color-primary); */
+    color: rgb(4, 49, 4);
+}
+
+.about__card small:hover {
+    font-size: 0.9rem;
 }
 
 
@@ -121,9 +143,14 @@
     font-family: system-ui;
     width: 100%;
     text-align: justify;
-    background: var(--color-bg-variant);
-    color: white;
-    border: 1px solid transparent;
+    /* background: var(--color-bg-variant); */
+    background-color: white;
+    /* color: white; */
+    color: var(--color-bg-variant);
+    /* border: 1px solid transparent; */
+    border: 3px solid #27519f;
+    border-right-color: rgb(232, 90, 42);
+    border-left-color: rgb(232, 90, 42);
     border-radius: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -133,28 +160,43 @@
 }
 
 .intern:hover {
-    color: black;
-    background: transparent;
-    border-color: black;
+    /* color: black;
+    background: transparent; */
+    /* border-color: black; */
     cursor: default;
 }
 
 .intern div {
     text-align: center;
-    color: var(--color-primary);
-    font-size: 1.4rem;
+    /* color: var(--color-primary); */
+    color: rgb(54, 51, 51);
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
+}
+
+.intern div:hover {
+    font-size: 1.7rem;
 }
 
 .intern li {
     padding-left: 1.8rem;
     font-size: 0.8rem;
-    font-weight: 500;
-    color: var(--color-primary);
+    font-weight: 700;
+    /* color: var(--color-primary); */
+    color: rgb(4, 49, 4);
+}
+
+.intern li:hover {
+    font-size: 0.9rem;
 }
 
 .intern h5 {
+    font-weight: 700;
     font-size: 1.1rem;
+}
+
+.intern h5:hover {
+    font-size: 1.2rem;
 }
 
 .butt {
@@ -188,6 +230,10 @@
 
 .icon {
     margin-bottom: -0.5rem;
+}
+
+.about2{
+    color: rgb(13, 13, 213);
 }
 
 /* ####################### MEDIA QUERIES(MEDIUM DEVICES) ########################## */
@@ -239,6 +285,14 @@
     .about__me-image {
         border-width: 3px;
     }
+
+    .about__card {
+        border-width: 2.7px;
+    }
+
+    .intern {
+        border-width: 2.7px;
+    }
 }
 
 /* ####################### MEDIA QUERIES(SMALL DEVICES) ########################## */
@@ -277,5 +331,13 @@
     
     .about__me-image {
         border-width: 2.7px;
+    }
+
+    .about__card {
+        border-width: 2.5px;
+    }
+
+    .intern {
+        border-width: 2.5px;
     }
 }

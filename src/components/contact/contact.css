@@ -10,7 +10,8 @@
     margin-top: 0;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #f5f9ee;
+    /* background-color: #f5f9ee; */
+    background: #e1eeff;
 }
 
 .btn2 {
@@ -77,6 +78,10 @@
     font-size: 20px;
 }
 
+
+.cont{
+    color: rgb(13, 13, 213);
+}
 
 /* ############################# FORM ############################# */
 form {

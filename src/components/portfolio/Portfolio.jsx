@@ -32,7 +32,7 @@ const Portfolio = () => {
     return (
         <section id='portfolio' >
             <h5>My recent Work</h5>
-            <h2> <PiProjectorScreenChartLight/> Portfolio</h2>
+            <h2> <PiProjectorScreenChartLight/> Por<span className='port' >tfolio</span></h2>
 
             <div className='container portfolio__container' >
             {

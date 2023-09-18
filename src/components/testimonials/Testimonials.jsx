@@ -41,7 +41,7 @@ const data = [
 const Testimonials = () => {
     return (
         <section id='testimonials' >
-            <h2> <LiaCertificateSolid /> My Certificates</h2>
+            <h2> <LiaCertificateSolid /> My <span className='cert' >Certificates</span></h2>
             <Swiper className='container testimonials__container'
                 modules={[Pagination]} 
                 spaceBetween={40}

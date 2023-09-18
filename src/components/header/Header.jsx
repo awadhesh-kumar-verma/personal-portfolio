@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/awad.png';
+import ME from '../../assets/awad (1).png';
 import HeaderSocials from './HeaderSocials';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
@@ -20,15 +20,15 @@ const Header = () => {
                 <TypeAnimation className='texti' 
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
-                        '➡️MERT Stack Developer',
+                        '➡️ MERT Stack Developer',
                         1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        '➡️Competitive Programmer',
+                        '➡️ Competitive Programmer',
                         1000,
-                        '➡️UI/UX Developer',
+                        '➡️ UI/UX Developer',
                         1000,
-                        '➡️Final Year Engineer',
+                        '➡️ Final Year Engineer',
                         1000,
-                        '➡️Open-Source Contributor',
+                        '➡️ Open-Source Contributor',
                         1000
                     ]}
                     wrapper="span"

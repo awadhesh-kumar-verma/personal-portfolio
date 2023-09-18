@@ -5,7 +5,8 @@ header {
 }
 
 #home {
-    background: radial-gradient(circle at 10% 20%, rgb(226, 240, 254) 0%, rgb(255, 247, 228) 90%);
+    /* background-color: #f5f9ee; */
+    background-color: #fcfefe;
 }
 
 .name{
