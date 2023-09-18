@@ -82,14 +82,10 @@
 }
 
 .about__card:hover {
-    /* color: black; */
-    /* border-color: black; */
-    /* background: transparent; */
     cursor: default;
 }
 
 .about__icon {
-    /* color: var(--color-primary); */
     color: rgb(54, 51, 51);
     font-size: 1.5rem;
 }
@@ -101,7 +97,7 @@
 .about__card h5 {
     font-family: system-ui;
     font-size: 1.1rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .about__card h5:hover {
@@ -110,7 +106,7 @@
 
 .about__card small {
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 500;
     /* color: var(--color-primary); */
     color: rgb(4, 49, 4);
 }
@@ -181,7 +177,7 @@
 .intern li {
     padding-left: 1.8rem;
     font-size: 0.8rem;
-    font-weight: 700;
+    font-weight: 600;
     /* color: var(--color-primary); */
     color: rgb(4, 49, 4);
 }
@@ -191,7 +187,7 @@
 }
 
 .intern h5 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.1rem;
 }
 

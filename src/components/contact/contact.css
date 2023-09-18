@@ -24,14 +24,14 @@
     color: black;
 }
 
-#contact > h5 {
+#contact>h5 {
     color: black;
 }
 
 .contact__option h6 {
-    color: white;
+    color: rgb(54, 51, 51);
     font-size: 10px;
-    font-weight: 450;
+    font-weight: 550;
 }
 
 .contact__options {
@@ -41,7 +41,10 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
+    background-color: white;
+    color: var(--color-bg-variant);
+
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -50,22 +53,28 @@
     font-family: system-ui;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
+
+    border: 3px solid #27519f;
+    border-right-color: rgb(232, 90, 42);
+    border-left-color: rgb(232, 90, 42);
 }
 
-.conatct__option:hover {
+/* .conatct__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-}
+} */
 
 .contact__option-icon {
+    color: rgb(54, 51, 51);
     font-size: 1.5rem;
 }
 
 .contact__option a {
     display: inline-block;
     font-size: 0.9rem;
-    color: var(--color-primary);
-    font-weight: 500;
+    /* color: var(--color-primary); */
+    color: rgb(13, 13, 213);
+    font-weight: 600;
 
 }
 
@@ -75,11 +84,12 @@
 }
 
 .contact__option h4 {
+    font-weight: 600;
     font-size: 20px;
 }
 
 
-.cont{
+.cont {
     color: rgb(13, 13, 213);
 }
 
@@ -106,7 +116,7 @@ textarea {
 }
 
 
-.a1{
+.a1 {
     margin-bottom: -0.4rem;
 }
 
@@ -127,6 +137,17 @@ textarea {
 }
 
 /* ############################# MEDIA QUERIES(SMALL DEVICES) #################################3 */
+
+@media screen and (max-width:900px) {
+    .contact__option {
+        border-width: 2.7px;
+    }
+
+    input,
+    textarea {
+        border-width: 2.7px;
+    }
+}
 
 
 @media screen and (max-width:821px) {
@@ -150,5 +171,14 @@ textarea {
 
     .desktop {
         display: none;
+    }
+
+    .contact__option {
+        border-width: 2.5px;
+    }
+
+    input,
+    textarea {
+        border-width: 2.5px;
     }
 }
