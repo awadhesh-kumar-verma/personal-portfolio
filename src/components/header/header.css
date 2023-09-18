@@ -38,15 +38,14 @@ header p:hover{
     color: black;
     font-size: 1rem;
     font-weight: 700;
-}
-
-.text {
-    margin-top: 5px;
+    font-family: sans-serif;
 }
 
 .texti {
-    color: rgb(133, 14, 14);
+    color: rgb(181, 18, 18);
     font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 5px;
 }
 
 .cta {

@@ -34,6 +34,12 @@ nav a.active {
 
 @media screen and (max-width: 600px) {
     nav {
+        gap: 0.76rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
         gap: 0.56rem;
     }
 }

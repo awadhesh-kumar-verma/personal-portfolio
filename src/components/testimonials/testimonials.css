@@ -83,21 +83,21 @@
 @media screen and (max-width: 920px)
 {
     .container.testimonials__container {
-        width: 68%;
+        width: 73%;
     }
 }
 
 @media screen and (max-width: 800px)
 {
     .container.testimonials__container {
-        width: 75%;
+        width: 85%;
     }
 }
 
 @media screen and (max-width: 700px)
 {
     .container.testimonials__container {
-        width: 80%;
+        width: 88%;
     }
 }
 
@@ -105,7 +105,7 @@
 @media screen and (max-width: 600px)
 {
     .container.testimonials__container {
-        width: var(--container-width-sm);
+        width: 95%;
     } 
     .client__review {
         width: var(--container-width-sm);
