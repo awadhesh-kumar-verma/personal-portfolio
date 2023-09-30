@@ -117,6 +117,7 @@ header p:hover{
     border-left-color: rgb(232, 90, 42);
     border-top-color: rgb(16, 100, 16);
     border-bottom-color: rgb(16, 100, 16);
+    border-color: rgb(232, 90, 42);
 }
 
 .me:hover {
