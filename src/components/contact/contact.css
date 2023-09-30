@@ -54,9 +54,10 @@
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
 
-    border: 3px solid #27519f;
-    border-right-color: rgb(232, 90, 42);
-    border-left-color: rgb(232, 90, 42);
+    border: 2.3px solid #27519f;
+    /* border-right-color: rgb(232, 90, 42);
+    border-left-color: rgb(232, 90, 42); */
+    border-color: black;
 }
 
 /* .conatct__option:hover {
@@ -122,26 +123,39 @@ textarea {
 
 /* ############################# MEDIA QUERIES(MEDIUM DEVICES) #################################3 */
 @media screen and (max-width:1024px) {
-    .container.contact__container {
+    /* .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
+    } */
+
+    .container.contact__container {
+        width: 72%;
+        display: grid;
+        grid-template-columns: 30% 58%;
+        gap: 12%;
     }
 
     .mobile {
         display: none;
     }
 
-    .container.contact__container {
+    /* .container.contact__container {
         width: 50%;
-    }
+    } */
 }
 
 /* ############################# MEDIA QUERIES(SMALL DEVICES) #################################3 */
 
 @media screen and (max-width:900px) {
     .contact__option {
-        border-width: 2.7px;
+        border-width: 1.9px;
     }
+
+    /* .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: 50%;
+    } */
 
     /* input,
     textarea {
@@ -155,6 +169,12 @@ textarea {
         display: initial;
     }
 
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: 50%;
+    }
+
     .desktop {
         display: none;
     }
@@ -163,6 +183,7 @@ textarea {
 @media screen and (max-width:600px) {
     .container.contact__container {
         width: var(--container-width-sm);
+        width: 60%;
     }
 
     .mobile {
@@ -174,7 +195,7 @@ textarea {
     }
 
     .contact__option {
-        border-width: 2.5px;
+        border-width: 1.7px;
     }
 
     /* input,

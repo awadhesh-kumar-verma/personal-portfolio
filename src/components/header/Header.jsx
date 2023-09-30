@@ -26,8 +26,6 @@ const Header = () => {
                         1000,
                         '➡️ UI/UX Developer',
                         1000,
-                        '➡️ Final Year Engineer',
-                        1000,
                         '➡️ Open-Source Contributor',
                         1000
                     ]}

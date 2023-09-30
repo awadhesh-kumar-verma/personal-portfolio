@@ -43,7 +43,8 @@ header p:hover{
 }
 
 .texti {
-    color: rgb(181, 18, 18);
+    /* color: rgb(181, 18, 18); */
+    color: rgb(155, 17, 17);
     font-weight: 700;
     font-family: sans-serif;
     margin-top: 5px;
