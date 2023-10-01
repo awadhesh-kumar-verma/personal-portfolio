@@ -5,8 +5,8 @@ header {
 }
 
 #home {
-    /* background-color: #f5f9ee; */
-    background-color: #fcfefe;
+    /* background-color: #fcfefe; */
+    background-color: #f2f2f2;
 }
 
 .name{
@@ -65,7 +65,7 @@ header p:hover{
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 25px;
-    border: 2px solid white;
+    border: 2px solid rgb(84, 76, 76);
 
     display: flex;
     flex-direction: column;
@@ -100,6 +100,7 @@ header p:hover{
 
 .header__socials:hover{
     background-color: rgba(9, 8, 8, 0.3);
+    /* border-color: rgb(125, 116, 116); */
 }
 
 
@@ -112,12 +113,12 @@ header p:hover{
     border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
     padding: 1.2rem 0.9rem 1.7rem 0.2rem;
-    border: 3px solid white;
+    /* border: 3px solid white;
     border-right-color: black;
     border-left-color: rgb(232, 90, 42);
     border-top-color: rgb(16, 100, 16);
     border-bottom-color: rgb(16, 100, 16);
-    border-color: rgb(232, 90, 42);
+    border-color: rgb(232, 90, 42); */
 }
 
 .me:hover {
@@ -144,7 +145,7 @@ header p:hover{
     font-size: 18px;
     margin-right: 30px;
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgb(84, 76, 76);
 }
 
 .scroll__down:hover {
@@ -165,9 +166,9 @@ header p:hover{
     padding: 0.30rem 1.2rem;
     border-radius: 1.5rem;
     cursor: pointer;
-    border: 1px solid rgb(13, 13, 195);
+    /* border: 1px solid rgb(13, 13, 195); */
     transition: var(--transition);
-    font-weight: 500;
+    font-weight: 700;
     background-color: white;
 }
 
@@ -175,6 +176,11 @@ header p:hover{
     background: var(--color-white);
     color: rgb(228, 66, 12);
     border-color: transparent;
+}
+
+.down{
+    font-weight: 800;
+    color: rgb(228, 66, 12);
 }
 
 /* ################ MEDIA QUERIES(MEDIUM DEVICES) ############### */
