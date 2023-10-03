@@ -14,12 +14,12 @@ function Navbar() {
             <a href='#home' ><h3>&lt;&#47;&gt; Awadhesh</h3></a>
             
             <navi ref={navRef} >
-                <a href='#home'>Home</a>
-                <a href='#about'>About</a>
+                <a href='#home'>Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href='#about'>About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <a href='#experience'>Experience</a>
-                <a href='#portfolio'>Projects</a>
-                <a href='#testimonials'>Certificates</a>
-                <a href='#contact'>Contact</a>
+                <a href='#portfolio'>Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href='#testimonials'>&nbsp;Certificates</a>
+                <a href='#contact'>&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <button className='navi-btn navi-close-btn' onClick={showNavbar} >
                     <FaTimes />
                 </button>
