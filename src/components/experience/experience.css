@@ -21,9 +21,11 @@
 
 #experience h2 {
     color: black;
+    margin-top: 15px;
 }
 
 #experience > h5 {
+    margin-top: -25px;
     color: rgb(47, 47, 135);
 }
 

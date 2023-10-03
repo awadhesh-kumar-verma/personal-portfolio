@@ -1,18 +1,21 @@
 .container.testimonials__container {
     width: 50%;
     height: auto;
-    /* padding-bottom: 3rem; */
     margin-top: 0;
 }
 
 #testimonials{
     margin-top: 0;
-    /* background-color: #fcfefe; */
     background-color: #f2f2f2;
 }
 
+#testimonials > h5 {
+    padding-top: 25px;
+    color: rgb(47, 47, 135);
+}
+
 #testimonials>h2{
-    padding-top: 0.8rem;
+    padding-top: 0.7rem;
     color: #d74908;
     color: black;
     font-weight: 700;

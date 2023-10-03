@@ -41,6 +41,7 @@ const data = [
 const Testimonials = () => {
     return (
         <section id='testimonials' >
+            <h5>&nbsp;&nbsp;&nbsp;&nbsp;Some appreciations for me</h5>
             <h2> <LiaCertificateSolid /> My <span className='cert' >Certificates</span></h2>
             <Swiper className='container testimonials__container'
                 modules={[Pagination]} 

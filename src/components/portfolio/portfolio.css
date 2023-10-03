@@ -13,10 +13,12 @@
 }
 
 #portfolio > h5 {
+    margin-top: -10px;
     color: black;
 }
 
 #portfolio > h2 {
+    margin-top: 10px;
     color: black;
 }
 

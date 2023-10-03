@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.css';
+import './awad.css';
 import CTA from './CTA';
 import ME from '../../assets/awad (1).png';
 import HeaderSocials from './HeaderSocials';
@@ -7,9 +7,9 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 import { TypeAnimation } from 'react-type-animation';
 
-const Header = () => {
+const Awad = () => {
     return (
-        <header id="home">
+        <main id="home">
             <div className='container header__container'>
                 <h5 className='hello' >Hi There, I'm</h5>
                 <p><span className='name' >Awadhesh Kumar</span> Verma</p>
@@ -48,8 +48,8 @@ const Header = () => {
                     <a href='#contact' className='scroll__down'>Scroll Down &nbsp;<HiArrowNarrowRight /> </a>
                 </div>
             </div>
-        </header>
+        </main>
     )
 };
 
-export default Header;
+export default Awad;

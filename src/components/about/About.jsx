@@ -9,7 +9,7 @@ import { BiUser } from 'react-icons/bi';
 const About = () => {
     return (
         <section id='about' >
-            <h5>Get to Know</h5>
+            <h5>&nbsp;&nbsp;&nbsp;Get to Know</h5>
             <h2> <BiUser /> Abo<span className='about2' >ut Me</span></h2>
 
             <div className='container about__container' >
