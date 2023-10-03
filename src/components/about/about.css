@@ -338,4 +338,8 @@
     .intern {
         border-width: 2.5px;
     }
+
+    #about h2 {
+        margin-top: 15px;
+    }
 }
