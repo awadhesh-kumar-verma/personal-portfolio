@@ -20,7 +20,7 @@ const Awad = () => {
                 <TypeAnimation className='texti' 
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
-                        '➡️ MERT Stack Developer',
+                        '➡️ MERN Stack Developer',
                         1000, // wait 1s before replacing "Mice" with "Hamsters"
                         '➡️ Competitive Programmer',
                         1000,

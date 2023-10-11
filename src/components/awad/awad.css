@@ -28,7 +28,7 @@ main p {
 }
 
 main p:hover{
-    font-size: 49px;
+    /* font-size: 49px; */
     color: rgb(13, 13, 195);
 }
 
@@ -217,9 +217,9 @@ main p:hover{
         font-weight: 700;
     }
 
-    main p:hover{
+    /* main p:hover{
         font-size: 49px;
-    }
+    } */
 
     main {
         height: 640px;
@@ -285,9 +285,9 @@ main p:hover{
         font-size: 40px;
     }
 
-    main p:hover{
+    /* main p:hover{
         font-size: 42px;
-    }
+    } */
 
     main {
         height: 590px;
@@ -367,9 +367,9 @@ main p:hover{
         font-weight: 700;
     }
 
-    main p:hover{
+    /* main p:hover{
         font-size: 37px;
-    }
+    } */
 
     .header__socials {
         width: 30px;
@@ -406,9 +406,9 @@ main p:hover{
         font-weight: 700;
     }
 
-    main p:hover{
+    /* main p:hover{
         font-size: 30px;
-    }
+    } */
 
     .me {
         width: 10.5rem;
@@ -439,9 +439,9 @@ main p:hover{
         font-weight: 700;
     }
 
-    main p:hover{
+    /* main p:hover{
         font-size: 25px;
-    }
+    } */
 
     .scroll__down {
         margin-right: -10px;
@@ -501,9 +501,9 @@ main p:hover{
         font-weight: 580;
     }
 
-    main p:hover{
+    /* main p:hover{
         font-size: 22px;
-    }
+    } */
 
     .scroll__down {
         margin-right: -10px;

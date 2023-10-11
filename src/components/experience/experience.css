@@ -39,9 +39,11 @@
 
 .experience__container > div:hover {
     background: transparent;
-    color: rgb(47, 47, 135);
+    /* color: rgb(47, 47, 135); */
+    color: black;
     border-color: rgb(47, 47, 135);
     cursor: default;
+    transition: 1s;
 }
 
 .experience__container > div h3 {
