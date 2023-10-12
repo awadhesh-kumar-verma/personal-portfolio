@@ -9,7 +9,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Awad = () => {
     return (
-        <main id="home">
+        <main id="home" >
             <div className='container header__container'>
                 <h5 className='hello' >Hi There, I'm</h5>
                 <p><span className='name' >Awadhesh Kumar</span> Verma</p>

@@ -84,18 +84,19 @@ header .navi-btn{
         right: 0;
         /* height: 100%; */
         /* width: 100%; */
-        height: 400px;
+        height: 500px;
         width: 200px;
         padding-bottom: -10px;
-        border-bottom-left-radius: 100px;
+        /* border-bottom-left-radius: 100px; */
+        border-bottom-left-radius: 50px;
 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        /* gap: 1.5rem; */
-        gap: 1rem;
+        gap: 1.7rem;
+        /* gap: 1rem; */
         /* background-color: var(--mainColor); */
         transition: 1s;
         transform: translateY(-100vh);
@@ -127,11 +128,12 @@ header .navi-btn{
 
     header navi {
         top: 50px;
-        height: 360px;
+        /* height: 360px; */
+        height: 550px;
         width: 180px;
         border-bottom-left-radius: 60px;
-        /* gap: 1.5rem; */
-        gap: 0.8rem;
+        gap: 2rem;
+        /* gap: 0.8rem; */
     }
 
     navi a{
@@ -161,12 +163,12 @@ header .navi-btn{
     header navi {
         top: 45px;
         padding-top: 90px;
-        height: 330px;
+        height: 400px;
         width: 140px;
-        padding-bottom: 10px;
+        padding-bottom: 80px;
         border-bottom-left-radius: 60px;
-        /* gap: 1.5rem; */
-        gap: 0.8rem;
+        gap: 2rem;
+        /* gap: 0.8rem; */
     }
 
     navi a{

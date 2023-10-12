@@ -12,22 +12,22 @@ function Navbar() {
     return (
         <header>
             <a href='#home' ><h3>&lt;&#47;&gt; Awadhesh</h3></a>
-            
-            <navi ref={navRef} >
+
+            <navi ref={navRef} onClick={showNavbar} >
                 <a href='#home'>Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <a href='#about'>About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <a href='#experience'>Experience</a>
                 <a href='#portfolio'>Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <a href='#testimonials'>&nbsp;Certificates</a>
                 <a href='#contact'>&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                <button className='navi-btn navi-close-btn' onClick={showNavbar} >
+                {/* <button className='navi-btn navi-close-btn' onClick={showNavbar} >
                     <FaTimes />
-                </button>
+                </button> */}
             </navi>
             <button className='navi-btn' onClick={showNavbar} >
                 <FaBars />
             </button>
-            
+
         </header>
 
     );
