@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&family=Titillium+Web:wght@300;400;700&display=swap');
 
 :root{
-    --mainColor: #29335C;
-    --mainColor: #222831;
+    --mainColor: rgba(9, 8, 8, 0.3);
+    --mainColor: #9ea0a2;
     --mainColorLight: #5767aa;
     --secondaryColor: #DB2B39;
     --textColor: #eee;
@@ -27,7 +27,7 @@ header {
 header h3{
     font-family: Comic sans MS;
     font-weight: 600;
-    color: white;
+    color: var(--color-bg-variant);
 }
 
 
@@ -37,15 +37,15 @@ navi{
 
 
 navi a{
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 2rem;
-    color: white;
+    color: var(--color-bg-variant);
     text-decoration: none;
 }
 
 navi a:hover{
     color: var(--secondaryColor);
-    color: #4db5ff;
+    color: white;
 } 
 
 header .navi-btn{
@@ -55,6 +55,7 @@ header .navi-btn{
     border: none;
     outline: none;
     color: var(--textColor);
+    color: black;
     visibility: hidden;
     opacity: 0;
     /* font-size: 1.8rem; */
@@ -71,6 +72,11 @@ header .navi-btn{
     header .navi-btn{
         visibility: visible;
         opacity: 1;
+    }
+
+    header h3{
+        font-size: 25px;
+        color: black;
     }
 
     navi a{
@@ -102,7 +108,7 @@ header .navi-btn{
         transition: 1s;
         transform: translateY(-100vh);
 
-        background-color: #5767aa;
+        background-color: var(--mainColor);
     }
 
     header .responsive_nav{
@@ -148,8 +154,8 @@ header .navi-btn{
     }
 
     header h3{
-        font-weight: 500;
-        font-size: 1.1rem;
+        font-weight: 600;
+        font-size: 25px;
         margin-left: 10px;
     }
 
@@ -183,8 +189,8 @@ header .navi-btn{
     }
 
     header h3{
-        font-weight: 500;
-        font-size: 1rem;
+        font-weight: 600;
+        font-size: 25px;
         margin-left: 1px;
     }
 

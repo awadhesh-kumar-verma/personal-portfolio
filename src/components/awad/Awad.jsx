@@ -32,7 +32,8 @@ const Awad = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        style={{ fontSize: '1.3em', display: 'inline-block' }}
+                        // style={{ fontSize: '1.3em', display: 'inline-block' }}
+                        style={{ display: 'inline-block' }}
                         repeat={Infinity}
                     />
                 </h5>

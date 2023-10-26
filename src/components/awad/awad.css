@@ -1,12 +1,10 @@
 main {
     height: 650px;
-    /* padding-top: 4rem; */
     padding-top: 6rem;
     overflow: hidden;
 }
 
 #home {
-    /* background-color: #fcfefe; */
     background-color: #f2f2f2;
 }
 
@@ -44,9 +42,8 @@ main p:hover{
 }
 
 .texti {
-    /* color: rgb(181, 18, 18); */
     color: rgb(155, 17, 17);
-    font-weight: 700;
+    font-weight: 600;
     font-family: sans-serif;
     margin-top: 5px;
 }
@@ -60,13 +57,12 @@ main p:hover{
 
 
 .header__socials {
-    background-color: rgb(125, 116, 116);
+    background-color: rgba(9, 8, 8, 0.3);
     width: 38px;
     height: auto;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 25px;
-    border: 2px solid rgb(84, 76, 76);
 
     display: flex;
     flex-direction: column;
@@ -79,20 +75,14 @@ main p:hover{
     
 }
 
-.header__socials::after {
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background: white;
-}
 
 .header__socials a{
-    color: white;
+    color: var(--color-bg-variant);
     font-size: 20px;
 }
 
 .header__socials a:hover {
-    color: var(--color-bg-variant);
+    color: white;
 }
 
 .header__socials a.active {
@@ -101,14 +91,11 @@ main p:hover{
 
 .header__socials:hover{
     background-color: rgba(9, 8, 8, 0.3);
-    /* border-color: rgb(125, 116, 116); */
 }
 
 
 .me {
     background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-    /* width: 20rem;
-    height: 20rem; */
     width: 18rem;
     height: 18rem;
     position: absolute;
@@ -116,12 +103,6 @@ main p:hover{
     border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
     padding: 1.2rem 0.9rem 1.7rem 0.2rem;
-    /* border: 3px solid white;
-    border-right-color: black;
-    border-left-color: rgb(232, 90, 42);
-    border-top-color: rgb(16, 100, 16);
-    border-bottom-color: rgb(16, 100, 16);
-    border-color: rgb(232, 90, 42); */
 }
 
 .me:hover {
@@ -136,7 +117,7 @@ main p:hover{
     height: 38px;
     font-size: 21px;
     padding-top: 3px;
-    background-color: rgb(125, 116, 116);
+    background-color: rgba(9, 8, 8, 0.3);
     margin-bottom: 1rem;
     border-radius: 25px;
 
@@ -144,16 +125,15 @@ main p:hover{
     right: 2.3rem;
     bottom: 3.2rem;
     transform: rotate(90deg);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     margin-right: 30px;
-    color: white;
-    border: 2px solid rgb(84, 76, 76);
+    color: var(--color-bg-variant);
 }
 
 .scroll__down:hover {
     background-color: rgba(9, 8, 8, 0.3);
-    color: var(--color-bg-variant);
+    color: white;
 }
 
 .sose {
@@ -169,7 +149,6 @@ main p:hover{
     padding: 0.30rem 1.2rem;
     border-radius: 1.5rem;
     cursor: pointer;
-    /* border: 1px solid rgb(13, 13, 195); */
     transition: var(--transition);
     font-weight: 700;
     background-color: white;
@@ -190,7 +169,6 @@ main p:hover{
 @media screen and (max-width: 1025px) {
     main {
         height: 680px;
-        /* padding-top: 4rem; */
         padding-top: 6rem;
     }
 
@@ -217,13 +195,8 @@ main p:hover{
         font-weight: 700;
     }
 
-    /* main p:hover{
-        font-size: 49px;
-    } */
-
     main {
         height: 640px;
-        /* padding-top: 4rem; */
         padding-top: 6rem;
     }
 
@@ -252,7 +225,6 @@ main p:hover{
 @media screen and (max-width: 800px) {
     main {
         height: 600px;
-        /* padding-top: 4rem; */
         padding-top: 6rem;
     }
 
@@ -285,13 +257,8 @@ main p:hover{
         font-size: 40px;
     }
 
-    /* main p:hover{
-        font-size: 42px;
-    } */
-
     main {
         height: 590px;
-        /* padding-top: 4rem; */
         padding-top: 6rem;
     }
 
@@ -327,7 +294,6 @@ main p:hover{
 @media screen and (max-width: 600px) {
     main {
         height: 550px;
-        /* padding-top: 3.3rem; */
         padding-top: 5.3rem;
     }
 
@@ -367,10 +333,6 @@ main p:hover{
         font-weight: 700;
     }
 
-    /* main p:hover{
-        font-size: 37px;
-    } */
-
     .header__socials {
         width: 30px;
         height: auto;
@@ -406,10 +368,6 @@ main p:hover{
         font-weight: 700;
     }
 
-    /* main p:hover{
-        font-size: 30px;
-    } */
-
     .me {
         width: 10.5rem;
         height: 10.5rem;
@@ -438,10 +396,6 @@ main p:hover{
         font-size: 23px;
         font-weight: 700;
     }
-
-    /* main p:hover{
-        font-size: 25px;
-    } */
 
     .scroll__down {
         margin-right: -10px;
@@ -500,10 +454,6 @@ main p:hover{
         font-size: 20px;
         font-weight: 580;
     }
-
-    /* main p:hover{
-        font-size: 22px;
-    } */
 
     .scroll__down {
         margin-right: -10px;

@@ -12,7 +12,7 @@ function Navbar() {
 
     return (
         <header>
-            <a href='#home' ><h3>&lt;&#47;&gt; Awadhesh</h3></a>
+            <a href='#home' ><h3>&lt; Awadhesh &#47;&gt; </h3></a>
 
             <navi ref={navRef} onClick={showNavbar} >
                 <a href='#home'>Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>

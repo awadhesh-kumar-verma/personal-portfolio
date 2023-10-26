@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css';
 import IMG1 from '../../assets/portfolio1.jpeg';
 import IMG2 from '../../assets/To-do-list.png';
+import IMG3 from '../../assets/Screenshot 2023-10-27 022321.png';
 import {PiProjectorScreenChartLight} from 'react-icons/pi';
 
 const data = [
@@ -21,10 +22,10 @@ const data = [
     },
     {
         id: 1,
-        image: IMG1,
-        title: 'Music Player 🎹 - Music streming website!',
-        github: 'https://github.com/awadhesh-kumar-verma/Music.github.io',
-        demo: 'https://awadhesh-kumar-verma.github.io/Music.github.io/'
+        image: IMG3,
+        title: 'Even Semester Time-Table!',
+        github: 'https://github.com/awadhesh-kumar-verma/Time-table.github.io',
+        demo: 'https://awadhesh-kumar-verma.github.io/Time-table.github.io'
     }
 ]
 
