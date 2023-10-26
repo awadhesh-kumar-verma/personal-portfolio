@@ -25,6 +25,7 @@ header {
 }
 
 header h3{
+    font-family: Comic sans MS;
     font-weight: 600;
     color: white;
 }
@@ -36,6 +37,7 @@ navi{
 
 
 navi a{
+    font-weight: 500;
     margin: 0 2rem;
     color: white;
     text-decoration: none;
@@ -44,7 +46,6 @@ navi a{
 navi a:hover{
     color: var(--secondaryColor);
     color: #4db5ff;
-    font-weight: 600;
 } 
 
 header .navi-btn{
