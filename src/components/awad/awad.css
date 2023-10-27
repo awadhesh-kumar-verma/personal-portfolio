@@ -349,19 +349,19 @@ main p:hover{
         font-weight: 700;
     }
 
-    .header__socials {
+    /* .header__socials {
         width: 30px;
         height: auto;
         padding-top: 8px;
         padding-bottom: 8px;
-    }
+    } */
     .header__socials::after {
         height: 1rem;
     }
-    .header__socials a{
+    /* .header__socials a{
         font-size: 14px;
-    }
-    .scroll__down {
+    } */
+    /* .scroll__down {
         width: 110px;
         height: 30px;
         padding-top: 2.6px;
@@ -369,7 +369,7 @@ main p:hover{
         font-weight: 500;
         bottom: 2.6rem;
         margin-right: -40px;
-    }
+    } */
 }
 
 
