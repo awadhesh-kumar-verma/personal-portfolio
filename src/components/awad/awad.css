@@ -48,6 +48,13 @@ main p:hover{
     margin-top: 5px;
 }
 
+.texti2 {
+    color: rgb(155, 17, 17);
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
 .cta {
     margin-top: 2.5rem;
     display: flex;

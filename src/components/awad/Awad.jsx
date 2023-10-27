@@ -39,7 +39,7 @@ const Awad = () => {
                 </h5>
 
                 <h5 className='tx' >
-                    <TypeAnimation className='texti'
+                    <TypeAnimation className='texti2'
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
                             '➡️ MERN Stack Developer',
