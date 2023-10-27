@@ -165,6 +165,10 @@ main p:hover{
     color: rgb(228, 66, 12);
 }
 
+.tx {
+    display: none;
+}
+
 /* ################ MEDIA QUERIES(MEDIUM DEVICES) ############### */
 @media screen and (max-width: 1025px) {
     main {
@@ -319,6 +323,14 @@ main p:hover{
 
     .me{
         border-width: 2.5px;
+    }
+
+    .tx2 {
+        display: none;
+    }
+
+    .tx {
+        display: initial;
     }
 }
 

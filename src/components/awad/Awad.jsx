@@ -17,7 +17,7 @@ const Awad = () => {
                 {/* <h5 className='texti text' >MERN Stack Developer || Competitive Programmer </h5> */}
                 {/* <EFFECT /> */}
 
-                <h5>
+                <h5 className='tx2' >
                     <TypeAnimation className='texti'
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
@@ -34,6 +34,26 @@ const Awad = () => {
                         speed={50}
                         // style={{ fontSize: '1.3em', display: 'inline-block' }}
                         style={{ display: 'inline-block' }}
+                        repeat={Infinity}
+                    />
+                </h5>
+
+                <h5 className='tx' >
+                    <TypeAnimation className='texti'
+                        sequence={[
+                            // Same substring at the start will only be typed out once, initially
+                            '➡️ MERN Stack Developer',
+                            1000, // wait 1s before replacing "Mice" with "Hamsters"
+                            '➡️ Competitive Programmer',
+                            1000,
+                            '➡️ UI/UX Developer',
+                            1000,
+                            '➡️ Open-Source Contributor',
+                            1000
+                        ]}
+                        wrapper="span"
+                        speed={50}
+                        style={{ fontSize: '1.3em', display: 'inline-block' }}
                         repeat={Infinity}
                     />
                 </h5>
