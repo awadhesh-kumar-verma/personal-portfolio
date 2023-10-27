@@ -5,6 +5,9 @@ import { FiAward } from 'react-icons/fi';
 import { PiCertificateBold } from 'react-icons/pi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { BiUser } from 'react-icons/bi';
+import {BiSolidRightArrow} from 'react-icons/bi';
+import { TiSocialLinkedinCircular } from 'react-icons/ti';
+import {DiGithub} from 'react-icons/di';
 
 const About = () => {
     return (
@@ -24,13 +27,13 @@ const About = () => {
                         <article className='art about__card' >
                             <FiAward className='about__icon' />
                             <h5>Expeirence</h5>
-                            <small>&raquo; Fresher</small>
+                            <small><BiSolidRightArrow/> Fresher</small>
                         </article>
 
                         <article className='about__card' >
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>&raquo; 10+</small>
+                            <small><BiSolidRightArrow/> 10+</small>
                         </article>
                     </div>
 
@@ -39,9 +42,9 @@ const About = () => {
                             <div><PiCertificateBold className='icon' /></div>
                             <h5>Internships: </h5>
                             <ul>
-                                <li> &raquo; InternPe - Web Development </li>
-                                <li> &raquo; Bharat Intern - Full Stack Web Development</li>
-                                <li> &raquo; Effervescene, IIIT Allahabad - Web Development Frontend</li>
+                                <li> <BiSolidRightArrow/> InternPe - Web Development </li>
+                                <li> <BiSolidRightArrow/> Bharat Intern - Full Stack Web Development</li>
+                                <li> <BiSolidRightArrow/> Effervescene, IIIT Allahabad-Web Development Frontend</li>
                             </ul>
                         </div>
                     </div>
@@ -57,8 +60,8 @@ const About = () => {
                 &raquo; Feel free🆓to explore my projects on GitHub and connect with me on LinkedIn😑.
             </p>
 
-            <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' className='butt' >LinkedIn</a>
-            <a href='https://github.com/awadhesh-kumar-verma' className='btn btn-primary butt' >GitHub</a>
+            <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' className='butt' >LinkedIn <TiSocialLinkedinCircular/> </a>
+            <a href='https://github.com/awadhesh-kumar-verma' className='btn btn-primary butt' >GitHub <DiGithub/> </a>
         </section>
     );
 };

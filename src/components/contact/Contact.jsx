@@ -6,7 +6,9 @@ import {BsWhatsapp} from 'react-icons/bs';
 import {BsFillSendFill} from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import {BiMessageSquareDetail} from 'react-icons/bi';
+import {BiFontSize, BiMessageSquareDetail} from 'react-icons/bi';
+
+import { BsPatchCheckFill } from 'react-icons/bs';
 
 const Contact = () => {
     const form = useRef();
@@ -26,14 +28,14 @@ const Contact = () => {
                 <div className='contact__options' >
                     <article className='contact__option' >
                         <MdOutlineEmail className='contact__option-icon' />
-                        <h4>Email</h4>
+                        <h4> <BsPatchCheckFill style={{ fontSize:15, color:'var(--color-primary)' }} /> email</h4>
                         <h6>vermaavd17476765@gmail.com</h6>
                         {/* <button>Send a messase</button> */}
                         <a href='mailto:vermaavd17476765@gmail.com' target=''> Send a message </a>
                     </article>
                     <article className='contact__option' >
                         <RiMessengerLine className='contact__option-icon' />
-                        <h4 className='a1'>Messenger</h4>
+                        <h4 className='a1'> <BsPatchCheckFill style={{ fontSize:15, color:'var(--color-primary)' }} /> messenger</h4>
                         {/* <h6>Facebook-Awadhes11803932</h6> */}
                         <a href='https://www.facebook.com/Awadhes11803932' target='' style={{color:'white',marginTop:-9}} className='a1' ><h6>Facebook-Awadhes11803932</h6></a>
                         <br/>
@@ -41,7 +43,7 @@ const Contact = () => {
                     </article>
                     <article className='contact__option' >
                         <BsWhatsapp className='contact__option-icon' />
-                        <h4>Whatsapp</h4>
+                        <h4> <BsPatchCheckFill style={{ fontSize:15, color:'var(--color-primary)' }} /> whatsapp</h4>
                         <h6>+919569616092</h6>
                         <li className='desktop' ><a href='https://web.whatsapp.com/send?phone=+919569616092' target='' >Send a message</a></li>
                         <li className='mobile' ><a href='https://api.whatsapp.com/send?phone=+919569616092' target='' >Send a message</a></li>

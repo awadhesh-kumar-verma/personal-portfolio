@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&family=Titillium+Web:wght@300;400;700&display=swap');
 
 :root{
-    --mainColor: rgba(9, 8, 8, 0.3);
     --mainColor: #9ea0a2;
+    --mainColor: white;
     --mainColorLight: #5767aa;
     --secondaryColor: #DB2B39;
     --textColor: #eee;
+}
+
+header navi2{
+    display: none;
 }
 
 header {
@@ -27,11 +31,11 @@ header {
 header h3{
     font-family: Comic sans MS;
     font-weight: 600;
-    color: var(--color-bg-variant);
+    color: black;
 }
 
 
-navi{
+navi, navi2{
     margin-bottom: 9px;
 }
 
@@ -39,14 +43,28 @@ navi{
 navi a{
     font-weight: 600;
     margin: 0 2rem;
-    color: var(--color-bg-variant);
+    color: black;
     text-decoration: none;
 }
 
 navi a:hover{
-    color: var(--secondaryColor);
-    color: white;
-} 
+    color: var(--color-bg-variant);
+}
+
+navi2 a{
+    font-weight: 600;
+    margin: 0 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+navi2 a:hover{
+    color: var(--color-bg-variant);
+}
+
+.deco:hover{
+    text-decoration: underline;
+}
 
 header .navi-btn{
     padding: 5px;
@@ -66,6 +84,10 @@ header .navi-btn{
     navi a{
         margin: 0 1rem;
     }
+
+    navi2 a{
+        margin: 0 1rem;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -83,14 +105,26 @@ header .navi-btn{
         margin: 0 2rem;
     }
 
-    header navi {
+    navi2 a{
+        margin: 0 2rem;
+    }
+
+    header navi{
+        display: none;
+    }
+
+    header navi2{
+        display: initial;
+    }
+
+    header navi2 {
         position: fixed;
         /* top: 0; */
         top: 60px;
         /* left: 0; */
         right: 0;
-        /* height: 100%; */
-        /* width: 100%; */
+        /* height: 100%; 
+        width: 100%; */
         height: 500px;
         width: 200px;
         padding-bottom: -10px;
@@ -109,6 +143,7 @@ header .navi-btn{
         transform: translateY(-100vh);
 
         background-color: var(--mainColor);
+        z-index: 100;
     }
 
     header .responsive_nav{
@@ -121,7 +156,18 @@ header .navi-btn{
         right: 2rem;
     }
 
+    navi2 .navi-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
     navi a{
+        /* font-size: 1.5rem; */
+        font-size: 1.2rem;
+    }
+
+    navi2 a{
         /* font-size: 1.5rem; */
         font-size: 1.2rem;
     }
@@ -143,7 +189,22 @@ header .navi-btn{
         /* gap: 0.8rem; */
     }
 
+    header navi2 {
+        top: 50px;
+        /* height: 360px; */
+        height: 550px;
+        width: 180px;
+        border-bottom-left-radius: 60px;
+        gap: 2rem;
+        /* gap: 0.8rem; */
+    }
+
     navi a{
+        /* font-size: 1.5rem; */
+        font-size: 1rem;
+    }
+
+    navi2 a{
         /* font-size: 1.5rem; */
         font-size: 1rem;
     }
@@ -155,7 +216,7 @@ header .navi-btn{
 
     header h3{
         font-weight: 600;
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 10px;
     }
 
@@ -178,7 +239,23 @@ header .navi-btn{
         /* gap: 0.8rem; */
     }
 
+    header navi2 {
+        top: 45px;
+        padding-top: 90px;
+        height: 400px;
+        width: 140px;
+        padding-bottom: 80px;
+        border-bottom-left-radius: 60px;
+        gap: 2rem;
+        /* gap: 0.8rem; */
+    }
+
     navi a{
+        /* font-size: 1.5rem; */
+        font-size: 0.8rem;
+    }
+
+    navi2 a{
         /* font-size: 1.5rem; */
         font-size: 0.8rem;
     }
@@ -190,7 +267,7 @@ header .navi-btn{
 
     header h3{
         font-weight: 600;
-        font-size: 25px;
+        font-size: 18px;
         margin-left: 1px;
     }
 

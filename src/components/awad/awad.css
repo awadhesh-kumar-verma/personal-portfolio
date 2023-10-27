@@ -64,7 +64,7 @@ main p:hover{
 
 
 .header__socials {
-    background-color: rgba(9, 8, 8, 0.3);
+    background-color: white;
     width: 38px;
     height: auto;
     padding-top: 15px;
@@ -89,15 +89,12 @@ main p:hover{
 }
 
 .header__socials a:hover {
-    color: white;
+    color: black;
+    rotate: 360deg;
 }
 
 .header__socials a.active {
     color: var(--color-bg);
-}
-
-.header__socials:hover{
-    background-color: rgba(9, 8, 8, 0.3);
 }
 
 
@@ -124,7 +121,7 @@ main p:hover{
     height: 38px;
     font-size: 21px;
     padding-top: 3px;
-    background-color: rgba(9, 8, 8, 0.3);
+    background-color: white;
     margin-bottom: 1rem;
     border-radius: 25px;
 
@@ -139,8 +136,8 @@ main p:hover{
 }
 
 .scroll__down:hover {
-    background-color: rgba(9, 8, 8, 0.3);
-    color: white;
+    color: black;
+    font-weight: 700;
 }
 
 .sose {
@@ -291,7 +288,7 @@ main p:hover{
         height: 32px;
         padding-top: 0;
         font-size: 15px;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     .header__socials {
@@ -369,7 +366,7 @@ main p:hover{
         height: 30px;
         padding-top: 2.6px;
         font-size: 12px;
-        font-weight: 400;
+        font-weight: 500;
         bottom: 2.6rem;
         margin-right: -40px;
     }
@@ -453,7 +450,7 @@ main p:hover{
         height: 27px;
         padding-top: 2.5px;
         font-size: 11px;
-        font-weight: 400;
+        font-weight: 500;
         bottom: 2.3rem;
         margin-right: -70px;
     }
