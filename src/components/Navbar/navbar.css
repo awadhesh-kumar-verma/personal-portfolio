@@ -76,7 +76,6 @@ header .navi-btn{
     color: black;
     visibility: hidden;
     opacity: 0;
-    /* font-size: 1.8rem; */
     font-size: 1.5rem;
 }
 
@@ -119,31 +118,39 @@ header .navi-btn{
 
     header navi2 {
         position: fixed;
-        /* top: 0; */
         top: 60px;
-        /* left: 0; */
         right: 0;
-        /* height: 100%; 
-        width: 100%; */
-        height: 500px;
-        width: 200px;
-        padding-bottom: -10px;
-        /* border-bottom-left-radius: 100px; */
-        border-bottom-left-radius: 50px;
+        height: 90%; 
+        width: 100%;
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 100;
+    }
 
+    header navi2 div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .er1{
+        width: 100%;
+        height: 100%;
+    }
+    .er2{
+        background-color: white;
+        width: 50%;
+        width: 400px;
+        height: 540px;
+        padding-bottom: -10px;
+        border-bottom-left-radius: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        gap: 1.7rem;
-        /* gap: 1rem; */
-        /* background-color: var(--mainColor); */
-        transition: 1s;
-        transform: translateY(-100vh);
-
-        background-color: var(--mainColor);
-        z-index: 100;
+        gap: 2.6rem;
     }
 
     header .responsive_nav{
@@ -163,12 +170,10 @@ header .navi-btn{
     }
 
     navi a{
-        /* font-size: 1.5rem; */
         font-size: 1.2rem;
     }
 
     navi2 a{
-        /* font-size: 1.5rem; */
         font-size: 1.2rem;
     }
 }
@@ -181,31 +186,30 @@ header .navi-btn{
 
     header navi {
         top: 50px;
-        /* height: 360px; */
         height: 550px;
         width: 180px;
         border-bottom-left-radius: 60px;
         gap: 2rem;
-        /* gap: 0.8rem; */
     }
 
     header navi2 {
         top: 50px;
-        /* height: 360px; */
-        height: 550px;
-        width: 180px;
+    }
+
+    .er2{
+        background-color: white;
+        width: 320px;
+        height: 440px;
+        padding-bottom: -10px;
         border-bottom-left-radius: 60px;
         gap: 2rem;
-        /* gap: 0.8rem; */
     }
 
     navi a{
-        /* font-size: 1.5rem; */
         font-size: 1rem;
     }
 
     navi2 a{
-        /* font-size: 1.5rem; */
         font-size: 1rem;
     }
 
@@ -236,27 +240,26 @@ header .navi-btn{
         padding-bottom: 80px;
         border-bottom-left-radius: 60px;
         gap: 2rem;
-        /* gap: 0.8rem; */
     }
 
     header navi2 {
         top: 45px;
-        padding-top: 90px;
-        height: 400px;
-        width: 160px;
-        padding-bottom: 80px;
+    }
+
+    .er2{
+        background-color: white;
+        width: 280px;
+        height: 370px;
+        padding-bottom: -10px;
         border-bottom-left-radius: 60px;
-        gap: 2rem;
-        /* gap: 0.8rem; */
+        gap: 1.7rem;
     }
 
     navi a{
-        /* font-size: 1.5rem; */
         font-size: 0.8rem;
     }
 
     navi2 a{
-        /* font-size: 1.5rem; */
         font-size: 0.8rem;
     }
 
