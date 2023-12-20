@@ -19,7 +19,7 @@ function Navbar() {
 
     return (
         <header>
-            <a href='#home' ><h3>&lt; asv &#47;&gt; </h3></a>
+            <a href='#home' ><h3>&lt; Awadhesh &#47;&gt; </h3></a>
 
             <navi ref={navRef} onClick={showNavbar} >
 

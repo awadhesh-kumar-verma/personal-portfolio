@@ -53,14 +53,21 @@
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
 
-    border: 2.3px solid #27519f;
-    border-color: black;
+    border: 2.3px solid black;
+    border-right-color: rgb(232, 90, 42);
+    border-left-color: rgb(232, 90, 42);
 }
 
-.contact__option-icon {
+/* .contact__option-icon {
     color: rgb(54, 51, 51);
     color: white;
     font-size: 1.5rem;
+} */
+
+.logo8 {
+    margin: auto;
+    width: 29px;
+    aspect-ratio: 1/1;
 }
 
 .stl{
@@ -104,7 +111,9 @@ textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: white;
-    border: 1.4px solid black;
+    border: 1.4px solid #27519f;
+    border-right-color: rgb(232, 90, 42);
+    border-left-color: rgb(232, 90, 42);
     resize: none;
     color: black;
 }

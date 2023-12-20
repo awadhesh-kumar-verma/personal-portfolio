@@ -7,8 +7,11 @@ import {BsFillSendFill} from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import {BiMessageSquareDetail} from 'react-icons/bi';
-
 import { BsPatchCheckFill } from 'react-icons/bs';
+
+import wp from '../../assets/whatsapp.png';
+import email from '../../assets/email.png';
+import msg from '../../assets/messenger.png';
 
 const Contact = () => {
     const form = useRef();
@@ -27,14 +30,16 @@ const Contact = () => {
             <div className='container contact__container' >
                 <div className='contact__options' >
                     <article className='contact__option' >
-                        <MdOutlineEmail className='contact__option-icon' />
+                        {/* <MdOutlineEmail className='contact__option-icon' /> */}
+                        <img src={email} alt='sorry' className='logo8' />
                         <h4> <BsPatchCheckFill  className='stl' /> email</h4>
                         <h6>vermaavd17476765@gmail.com</h6>
                         {/* <button>Send a messase</button> */}
                         <a href='mailto:vermaavd17476765@gmail.com' target=''> Send a message </a>
                     </article>
                     <article className='contact__option' >
-                        <RiMessengerLine className='contact__option-icon' />
+                        {/* <RiMessengerLine className='contact__option-icon' /> */}
+                        <img src={msg} alt='sorry' className='logo8' />
                         <h4 className='a1'> <BsPatchCheckFill  className='stl' /> messenger</h4>
                         {/* <h6>Facebook-Awadhes11803932</h6> */}
                         <a href='https://www.facebook.com/Awadhes11803932' target='' style={{color:'white',marginTop:-9}} className='a1' ><h6>Facebook-Awadhes11803932</h6></a>
@@ -42,7 +47,8 @@ const Contact = () => {
                         <a href='https://m.me/Awadhes11803932' target=''> Send a message</a>
                     </article>
                     <article className='contact__option' >
-                        <BsWhatsapp className='contact__option-icon' />
+                        {/* <BsWhatsapp className='contact__option-icon' /> */}
+                        <img src={wp} alt='sorry' className='logo8' />
                         <h4> <BsPatchCheckFill  className='stl' /> whatsapp</h4>
                         <h6>+919569616092</h6>
                         <li className='desktop' ><a href='https://web.whatsapp.com/send?phone=+919569616092' target='' >Send a message</a></li>

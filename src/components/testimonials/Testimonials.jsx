@@ -19,6 +19,9 @@ import 'swiper/css/pagination';
 
 const data = [
     {
+        avatar: AVTR6
+    },
+    {
         avatar: AVTR2
     },
     {
@@ -32,9 +35,6 @@ const data = [
     },
     {
         avatar: AVTR5
-    },
-    {
-        avatar: AVTR6
     }
 ]
 

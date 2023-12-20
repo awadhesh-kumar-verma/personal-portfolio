@@ -11,8 +11,8 @@ footer {
 }
 
 footer a {
-    /* color: var(--color-bg); */
-    color: white;
+    font-weight: 600;
+    color: rgb(232, 90, 42);
 }
 
 .footer__logo {
@@ -74,7 +74,7 @@ footer span {
 
 .footer__socials img {
     width: 25px;
-    height: 25px;
+    aspect-ratio: 1/1;
 }
 
 /* .footer__copyright {

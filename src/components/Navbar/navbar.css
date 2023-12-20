@@ -32,6 +32,7 @@ header h3{
     font-family: Comic sans MS;
     font-weight: 600;
     color: black;
+    color: rgb(155, 17, 17);
 }
 
 
@@ -48,7 +49,8 @@ navi a{
 }
 
 navi a:hover{
-    color: var(--color-bg-variant);
+    /* color: var(--color-bg-variant); */
+    color: rgb(232, 90, 42);
 }
 
 navi2 a{
