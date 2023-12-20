@@ -1,15 +1,34 @@
 import React from 'react';
 import { BiLogoLinkedin } from 'react-icons/bi';
+import Li from '../../assets/Linkedin1.png';
 import { FaGithub } from 'react-icons/fa';
+import git from '../../assets/github1.png';
 import {FaFacebookF} from 'react-icons/fa';
+import fa from '../../assets/messenger.png';
+import insta from '../../assets/instagram.jpg';
+import { BsMessenger } from "react-icons/bs";
+import { PiInstagramLogoBold } from "react-icons/pi";
 
 const HeaderSocials = () => {
     return (
-        <div className='header__socials'>
-            <a href='https://linkedin.com/in/awadhesh-kumar-verma-636982255'  target=''><BiLogoLinkedin /></a>
-            <a href='https://github.com/awadhesh-kumar-verma' target=''><FaGithub /></a>
-            <a href='https://www.facebook.com/Awadhes11803932' target=''><FaFacebookF /></a>
+        <div>
+            <div id='id1'>
+                {/* <a href='https://linkedin.com/in/awadhesh-kumar-verma-636982255'  target=''><BiLogoLinkedin /></a> */}
+                <a href='https://linkedin.com/in/awadhesh-kumar-verma-636982255' target=''> <img src={Li} /> </a>
+                {/* <a href='https://github.com/awadhesh-kumar-verma' target=''><FaGithub /></a> */}
+                <a href='https://github.com/awadhesh-kumar-verma' target=''> <img src={git} /> </a>
+                {/* <a href='https://www.facebook.com/Awadhes11803932' target=''><FaFacebookF /></a> */}
+                <a href='https://m.me/Awadhes11803932' target=''> <img src={fa} /> </a>
+                <a href='https://www.instagram.com/at_official_210321' target=''> <img src={insta} /> </a>
+            </div>
+            <div className='.header__socials1' id='id2'>
+                <a href='https://linkedin.com/in/awadhesh-kumar-verma-636982255'  target=''> <span className='cls' > <BiLogoLinkedin /></span></a>
+                <a href='https://github.com/awadhesh-kumar-verma' target=''> <span className='cls' > <FaGithub /></span></a>
+                <a href='https://m.me/Awadhes11803932' target=''> <span className='cls' > <BsMessenger /></span></a>
+                <a href='https://www.instagram.com/at_official_210321' target=''> <span className='cls' > <PiInstagramLogoBold /></span></a>
+            </div>
         </div>
+
     );
 };
 

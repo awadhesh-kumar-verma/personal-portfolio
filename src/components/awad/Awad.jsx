@@ -3,8 +3,8 @@ import './awad.css';
 import CTA from './CTA';
 import ME from '../../assets/awad (1).png';
 import HeaderSocials from './HeaderSocials';
-import { HiArrowNarrowRight } from 'react-icons/hi';
-
+// import { HiArrowNarrowRight } from 'react-icons/hi';
+import {IoMdArrowDroprightCircle} from 'react-icons/io';
 import { TypeAnimation } from 'react-type-animation';
 
 const Awad = () => {
@@ -32,8 +32,8 @@ const Awad = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        // style={{ fontSize: '1.3em', display: 'inline-block' }}
-                        style={{ display: 'inline-block' }}
+                        style={{ fontSize: '1.3em', display: 'inline-block' }}
+                        // style={{ display: 'inline-block' }}
                         repeat={Infinity}
                     />
                 </h5>
@@ -67,7 +67,8 @@ const Awad = () => {
                         <img src={ME} alt='me' />
                     </div>
 
-                    <a href='#contact' className='scroll__down'>Scroll Down &nbsp;<HiArrowNarrowRight /> </a>
+                    {/* <a href='#contact' className='scroll__down'>Scroll Down &nbsp;<HiArrowNarrowRight /> </a> */}
+                    <a href='#contact' className='scroll__down'>Scroll Down <IoMdArrowDroprightCircle /></a>
                 </div>
             </div>
         </main>

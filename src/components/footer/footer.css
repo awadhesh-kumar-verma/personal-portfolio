@@ -72,6 +72,11 @@ footer span {
     border-width: 1.5px;
 }
 
+.footer__socials img {
+    width: 25px;
+    height: 25px;
+}
+
 /* .footer__copyright {
     margin-bottom: 4rem;
     color: var(--color-bg);
@@ -106,5 +111,19 @@ footer span {
 
     .footer__copyright {
         margin-top: 3.5rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .footer__socials a {
+        padding-left: 0.65px;
+        padding-right: 0.65px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer__socials a {
+        padding-left: 0.5px;
+        padding-right: 0.5px;
     }
 }

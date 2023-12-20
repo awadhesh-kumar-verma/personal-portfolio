@@ -1,12 +1,16 @@
 import React from 'react'
 import './footer.css';
-import {FaFacebookF} from 'react-icons/fa';
-import {FiInstagram} from 'react-icons/fi';
-import {IoLogoTwitter} from 'react-icons/io';
-import {BsGithub} from 'react-icons/bs';
-import {FaLinkedinIn} from 'react-icons/fa';
+// import {FaFacebookF} from 'react-icons/fa';
+// import {FiInstagram} from 'react-icons/fi';
+// import {IoLogoTwitter} from 'react-icons/io';
+// import {BsGithub} from 'react-icons/bs';
+// import {FaLinkedinIn} from 'react-icons/fa';
 import {TbSitemap} from 'react-icons/tb';
-
+import Li from '../../assets/Linkedin1.png';
+import fa from '../../assets/facebook.png';
+import insta from '../../assets/instagram1.jpg';
+import Twitter from '../../assets/Twitter.png';
+import git from '../../assets/github.png';
 
 
 const Footer = () => {
@@ -27,11 +31,18 @@ const Footer = () => {
             </ul>
 
             <div className='footer__socials' >
-                <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='' > <FaLinkedinIn /> </a>
+                {/* <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='' > <FaLinkedinIn /> </a>
                 <a href='https://facebook.com/Awadhes11803932' target='' > <FaFacebookF /> </a>
                 <a href='https://www.instagram.com/at_official_210321' target='' > <FiInstagram /> </a>
                 <a href='https://twitter.com/Awadhes11803932' target='' > <IoLogoTwitter /> </a>
-                <a href='https://github.com/awadhesh-kumar-verma' target='' > < BsGithub /> </a>
+                <a href='https://github.com/awadhesh-kumar-verma' target='' > < BsGithub /> </a> */}
+
+                
+                <a href='https://facebook.com/Awadhes11803932' target='' > <img src={fa} /> </a>
+                <a href='https://www.instagram.com/at_official_210321' target='' > <img src={insta} /> </a>
+                <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='' > <img src={Li} /> </a>
+                <a href='https://twitter.com/Awadhes11803932' target='' > <img src={Twitter} /> </a>
+                <a href='https://github.com/awadhesh-kumar-verma' target='' > <img src={git} /> </a>
             </div>
 
             <div className='footer__copyright' >
