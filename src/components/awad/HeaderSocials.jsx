@@ -3,7 +3,7 @@ import { BiLogoLinkedin } from 'react-icons/bi';
 import Li from '../../assets/Linkedin1.png';
 import { FaGithub } from 'react-icons/fa';
 import git from '../../assets/github1.png';
-import {FaFacebookF} from 'react-icons/fa';
+// import {FaFacebookF} from 'react-icons/fa';
 import fa from '../../assets/messenger.png';
 import insta from '../../assets/instagram.jpg';
 import { BsMessenger } from "react-icons/bs";
