@@ -38,11 +38,11 @@ const Footer = () => {
                 <a href='https://github.com/awadhesh-kumar-verma' target='' > < BsGithub /> </a> */}
 
                 
-                <a href='https://facebook.com/Awadhes11803932' target='' > <img src={fa} /> </a>
-                <a href='https://www.instagram.com/at_official_210321' target='' > <img src={insta} /> </a>
-                <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='' > <img src={Li} /> </a>
-                <a href='https://twitter.com/Awadhes11803932' target='' > <img src={Twitter} /> </a>
-                <a href='https://github.com/awadhesh-kumar-verma' target='' > <img src={git} /> </a>
+                <a href='https://facebook.com/Awadhes11803932' target='' > <img src={fa} alt='sorry'/> </a>
+                <a href='https://www.instagram.com/at_official_210321' target='' > <img src={insta} alt='sorry'/> </a>
+                <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='' > <img src={Li} alt='sorry'/> </a>
+                <a href='https://twitter.com/Awadhes11803932' target='' > <img src={Twitter} alt='sorry'/> </a>
+                <a href='https://github.com/awadhesh-kumar-verma' target='' > <img src={git} alt='sorry'/> </a>
             </div>
 
             <div className='footer__copyright' >
