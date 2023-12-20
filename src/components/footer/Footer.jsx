@@ -8,7 +8,7 @@ import './footer.css';
 import {TbSitemap} from 'react-icons/tb';
 import Li from '../../assets/Linkedin1.png';
 import fa from '../../assets/facebook.png';
-import insta from '../../assets/instagram1.jpg';
+import insta from '../../assets/instagram.png';
 import Twitter from '../../assets/Twitter.png';
 import git from '../../assets/github.png';
 
