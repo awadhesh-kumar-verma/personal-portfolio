@@ -4,7 +4,7 @@ import ME from '../../assets/awad1 (2).png';
 import { FiAward } from 'react-icons/fi';
 import { PiCertificateBold } from 'react-icons/pi';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import { BiColor, BiUser } from 'react-icons/bi';
+// import { BiColor, BiUser } from 'react-icons/bi';
 import {BiSolidRightArrow} from 'react-icons/bi';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 import {DiGithub} from 'react-icons/di';
