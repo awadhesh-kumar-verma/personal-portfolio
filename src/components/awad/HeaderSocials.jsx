@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 import git from '../../assets/github1.png';
 // import {FaFacebookF} from 'react-icons/fa';
 import fa from '../../assets/messenger.png';
-import insta from '../../assets/instagram.jpg';
+import insta from '../../assets/instagram.png';
 import { BsMessenger } from "react-icons/bs";
 import { PiInstagramLogoBold } from "react-icons/pi";
 

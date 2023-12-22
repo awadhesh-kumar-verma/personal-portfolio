@@ -5,11 +5,16 @@ main {
 }
 
 #home {
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    background-image: url("../../assets/mac-mouse.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .name{
-    color: black;
+    /* color: black; */
+    color: rgb(232, 90, 42);
 }
 
 .header__container {
@@ -19,19 +24,19 @@ main {
 }
 
 main p {
-    color: rgb(232, 90, 42);
+    color: rgb(13, 13, 195);
     font-family: Comic sans MS;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 47px;
 }
 
 main p:hover{
     /* font-size: 49px; */
-    color: rgb(13, 13, 195);
+    color: rgb(232, 90, 42);
 }
 
 .name:hover{
-    color: rgb(232, 90, 42);
+    color: white;
 }
 
 .hello {
@@ -42,14 +47,16 @@ main p:hover{
 }
 
 .texti {
-    color: rgb(155, 17, 17);
+    /* color: rgb(155, 17, 17); */
+    color: white;
     font-weight: 600;
     font-family: sans-serif;
     margin-top: 5px;
 }
 
 .texti2 {
-    color: rgb(155, 17, 17);
+    /* color: rgb(155, 17, 17); */
+    color: white;
     font-weight: 700;
     font-family: sans-serif;
     margin-top: 5px;

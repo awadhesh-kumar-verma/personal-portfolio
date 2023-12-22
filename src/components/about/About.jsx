@@ -4,7 +4,7 @@ import ME from '../../assets/awad1 (2).png';
 import { FiAward } from 'react-icons/fi';
 import { PiCertificateBold } from 'react-icons/pi';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import { BiUser } from 'react-icons/bi';
+import { BiColor, BiUser } from 'react-icons/bi';
 import {BiSolidRightArrow} from 'react-icons/bi';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 import {DiGithub} from 'react-icons/di';
@@ -51,13 +51,13 @@ const About = () => {
                 </div>
             </div>
             <p className='intro' >
-                &raquo; Hi, I'm Awadhesh Kumar Verma! 🚀 , a passionate and motivated MERN Stack Developer 💻with a strong problem solving mindset🤝, Pursuing Bachelor's degree(B.Tech) via Computer Science💻.
+                <span className='som'>&raquo;</span> Hi,I'm <span className='som'>Awadhesh Kumar Verma!</span> 🚀, a passionate and motivated <span className='som'>MERN Stack Developer</span> 💻with a strong problem solving mindset🤝, Pursuing <span className='som'>Bachelor's degree</span>(B.Tech) via <span className='som'>Computer Science</span>💻.
                 <br/>
                 <br/>
-                &raquo; I have the ability🚰to work with C, C++, python, DSA and MERN Stack Development, Can work well under pressure and make the best😑of any situation and Passionate individual with great interpersonal and communication🎯skills.
+                <span className='som'>&raquo;</span> I have the ability🚰to work with <span className='som'>C</span>, <span className='som'>C++</span>, <span className='som'>python</span>, <span className='som'>DSA</span> and <span className='som'>MERN Stack Development</span>, Can work well under pressure and make the best😑of any situation and Passionate individual with great <span className='som'>interpersonal and communication🎯skills</span>.
                 <br/>
                 <br/>
-                &raquo; Feel free🆓to explore my projects on GitHub and connect with me on LinkedIn😑.
+                <span className='som'>&raquo;</span> Feel free🆓to explore my projects on <span className='som'>Github</span> and connect with me on <span className='som'>LinkedIn</span>😑.
             </p>
 
             <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' className='butt' >LinkedIn <TiSocialLinkedinCircular/> </a>

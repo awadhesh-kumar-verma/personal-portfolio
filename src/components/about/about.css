@@ -4,6 +4,10 @@
     gap: 15%;
 }
 
+.som {
+    color: rgb(13, 13, 195);
+}
+
 #about {
     padding-bottom: 45px;
     background: #faf5e4;
