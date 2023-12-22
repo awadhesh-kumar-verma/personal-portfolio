@@ -40,7 +40,8 @@ main p:hover{
 }
 
 .hello {
-    color: rgb(25, 25, 25);
+    /* color: rgb(25, 25, 25); */
+    color: white;
     font-size: 0.8rem;
     font-weight: 600;
     font-family: sans-serif;
