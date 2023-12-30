@@ -13,8 +13,7 @@ main {
 }
 
 .name{
-    /* color: black; */
-    color: rgb(232, 90, 42);
+    color: white;
 }
 
 .header__container {
@@ -24,20 +23,19 @@ main {
 }
 
 main p {
-    color: rgb(13, 13, 195);
+    color: white;
     font-family: Comic sans MS;
     font-weight: 500;
     font-size: 47px;
 }
 
-main p:hover{
-    /* font-size: 49px; */
+/* main p:hover{
     color: rgb(232, 90, 42);
 }
 
 .name:hover{
     color: white;
-}
+} */
 
 .hello {
     /* color: rgb(25, 25, 25); */
@@ -56,8 +54,8 @@ main p:hover{
 }
 
 .texti2 {
-    /* color: rgb(155, 17, 17); */
-    color: white;
+    color: rgb(155, 17, 17);
+    /* color: white; */
     font-weight: 700;
     font-family: sans-serif;
     margin-top: 5px;
@@ -394,6 +392,35 @@ main p:hover{
 
 /* ################ MEDIA QUERIES(SMALL DEVICES) ############### */
 @media screen and (max-width: 600px) {
+
+
+    .name{
+        color: rgb(232, 90, 42);
+    }
+    
+    main p {
+        color: rgb(13, 13, 195);
+    }
+    
+    main p:hover{
+        color: rgb(232, 90, 42);
+    }
+    
+    .name:hover{
+        color: rgb(13, 13, 195);
+    }
+
+
+    #home{
+        background-image: none;
+        background-color: #f2f2f2;
+    }
+
+    .hello {
+        color: rgb(25, 25, 25);
+    }
+
+
     main {
         height: 550px;
         padding-top: 5.3rem;
