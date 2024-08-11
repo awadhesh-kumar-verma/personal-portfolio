@@ -12,6 +12,8 @@ import insta from '../../assets/instagram.png';
 import Twitter from '../../assets/Twitter.png';
 import git from '../../assets/github.png';
 
+import { Tooltip } from '@mui/material';
+
 
 const Footer = () => {
     return (
@@ -38,11 +40,21 @@ const Footer = () => {
                 <a href='https://github.com/awadhesh-kumar-verma' target='' > < BsGithub /> </a> */}
 
                 
-                <a href='https://facebook.com/Awadhes11803932' target='' > <img src={fa} alt='sorry'/> </a>
-                <a href='https://www.instagram.com/at_official_210321' target='' > <img src={insta} alt='sorry'/> </a>
-                <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='' > <img src={Li} alt='sorry'/> </a>
-                <a href='https://twitter.com/Awadhes11803932' target='' > <img src={Twitter} alt='sorry'/> </a>
-                <a href='https://github.com/awadhesh-kumar-verma' target='' > <img src={git} alt='sorry'/> </a>
+                <Tooltip title="Facebook" >
+                    <a href='https://facebook.com/Awadhes11803932' target='' > <img src={fa} alt='sorry'/> </a>
+                </Tooltip>
+                <Tooltip title="Instagram" >
+                    <a href='https://www.instagram.com/at_official_210321' target='' > <img src={insta} alt='sorry'/> </a>
+                </Tooltip>
+                <Tooltip title="LinkedIn" >
+                    <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' target='' > <img src={Li} alt='sorry'/> </a>
+                </Tooltip>
+                <Tooltip title="Twitter(X)" >
+                    <a href='https://twitter.com/Awadhes11803932' target='' > <img src={Twitter} alt='sorry'/> </a>
+                </Tooltip>
+                <Tooltip title="Github" >
+                    <a href='https://github.com/awadhesh-kumar-verma' target='' > <img src={git} alt='sorry'/> </a>
+                </Tooltip>
             </div>
 
             <div className='footer__copyright' >

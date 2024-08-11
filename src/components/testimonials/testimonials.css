@@ -1,3 +1,8 @@
+.cent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container.testimonials__container {
     width: 50%;
     height: auto;
@@ -63,6 +68,10 @@
     color: rgb(232, 90, 42);
 }
 
+.cent0 {
+    display: none;
+}
+
 /* ############################### MEDIA QUERIES(MEDIUM DEVICES) ############################### */
 
 @media screen and (max-width: 1200px)
@@ -99,6 +108,17 @@
 {
     .container.testimonials__container {
         width: 85%;
+    }
+}
+
+@media screen and (max-width: 728px)
+{
+    .cent0 {
+        display: initial;
+    }
+
+    .cent {
+        display: none;
     }
 }
 

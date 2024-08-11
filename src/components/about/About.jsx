@@ -10,6 +10,8 @@ import {BiSolidRightArrow} from 'react-icons/bi';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 import {DiGithub} from 'react-icons/di';
 
+import Tooltip from '@mui/material/Tooltip';
+
 const About = () => {
     return (
         <section id='about' >
@@ -61,8 +63,13 @@ const About = () => {
                 <span className='som'>&raquo;</span> Feel free🆓to explore my projects on <span className='som'>Github</span> and connect with me on <span className='som'>LinkedIn</span>😑.
             </p>
 
-            <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' className='butt' >LinkedIn <TiSocialLinkedinCircular/> </a>
-            <a href='https://github.com/awadhesh-kumar-verma' className='btn btn-primary butt' >GitHub <DiGithub/> </a>
+            <Tooltip title="LinkedIn" >
+                <a href='https://www.linkedin.com/in/awadhesh-kumar-verma-636982255' className='butt' >LinkedIn <TiSocialLinkedinCircular/> </a>
+            </Tooltip>
+
+            <Tooltip title="Github" >
+                <a href='https://github.com/awadhesh-kumar-verma' className='btn btn-primary butt' >GitHub <DiGithub/> </a>
+            </Tooltip>
         </section>
     );
 };

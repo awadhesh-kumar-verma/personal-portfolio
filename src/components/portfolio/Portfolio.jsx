@@ -5,6 +5,8 @@ import IMG2 from '../../assets/To-do-list.png';
 import IMG3 from '../../assets/portfolio4.png';
 import {PiProjectorScreenChartLight} from 'react-icons/pi';
 
+import { Tooltip } from '@mui/material';
+
 const data = [
     {
         id: 1,
@@ -45,8 +47,12 @@ const Portfolio = () => {
                             </div>
                             <h3> {title} </h3>
                             <div className='portfolio__item-cta' >
-                                <a href={github} className='btn' target=''>Github</a>
-                                <a href={demo} className='btn btn-primary' target=''>Live Demo</a>
+                                <Tooltip title="Github" >
+                                    <a href={github} className='btn' target=''>Github</a>
+                                </Tooltip>
+                                <Tooltip title="Visit" >
+                                    <a href={demo} className='btn btn-primary' target=''>Live Demo</a>
+                                </Tooltip>
                             </div>
                         </article>
                     )
