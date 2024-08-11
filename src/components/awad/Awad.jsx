@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './awad.css';
 import CTA from './CTA';
 import ME from '../../assets/awad (1).png';
