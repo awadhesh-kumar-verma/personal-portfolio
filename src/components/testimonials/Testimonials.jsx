@@ -11,9 +11,8 @@ import { LiaCertificateSolid } from "react-icons/lia";
 
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import "swiper/css";
-import "swiper/css/pagination";
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
@@ -23,6 +22,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
+
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -91,6 +91,7 @@ const Testimonials = () => {
   const handleStepChange = (step) => {
     setActiveStep(step);
   };
+
   return (
     <section id="testimonials">
       <h5>&nbsp;&nbsp;&nbsp;&nbsp;Some appreciations for me</h5>
@@ -106,15 +107,13 @@ const Testimonials = () => {
           slidesPerView={1}
           pagination={{ clickable: true }}
         >
-          {data.map(({ avatar, name, review }, index) => {
-            return (
-              <SwiperSlide key={index} className="testimonial">
-                <div className="client__avatar">
-                  <img src={avatar} alt="No" />
-                </div>
-              </SwiperSlide>
-            );
-          })}
+          {data.map(({ avatar }, index) => (
+            <SwiperSlide key={index} className="testimonial">
+              <div className="client__avatar">
+                <img src={avatar} alt="Avatar" />
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
         <div className="back"></div>
       </div>
@@ -145,12 +144,10 @@ const Testimonials = () => {
                 <Box
                   component="img"
                   sx={{
-                    // height: 255,
                     display: "block",
                     maxWidth: 598,
                     overflow: "hidden",
                     width: "100%",
-
                     aspectRatio: "1/1",
                   }}
                   src={step.imgPath}
