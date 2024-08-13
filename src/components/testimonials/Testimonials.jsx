@@ -9,23 +9,11 @@ import AVTR6 from "../../assets/avatar15.jpg";
 
 import { LiaCertificateSolid } from "react-icons/lia";
 
-import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-import { useTheme } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import MobileStepper from "@mui/material/MobileStepper";
-import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
-import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
-
-import SwipeableViews from "react-swipeable-views";
-import { autoPlay } from "react-swipeable-views-utils";
-const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const images = [
   {
@@ -76,22 +64,6 @@ const data = [
 ];
 
 const Testimonials = () => {
-  const theme = useTheme();
-  const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = images.length;
-
-  const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
-  };
-
-  const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  };
-
-  const handleStepChange = (step) => {
-    setActiveStep(step);
-  };
-
   return (
     <section id="testimonials">
       <h5>&nbsp;&nbsp;&nbsp;&nbsp;Some appreciations for me</h5>
@@ -102,15 +74,17 @@ const Testimonials = () => {
       <div className="cent0">
         <Swiper
           className="container testimonials__container"
-          modules={[Pagination]}
+          modules={[Pagination, Navigation, Autoplay]}
           spaceBetween={40}
           slidesPerView={1}
           pagination={{ clickable: true }}
+          navigation
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
         >
           {data.map(({ avatar }, index) => (
             <SwiperSlide key={index} className="testimonial">
               <div className="client__avatar">
-                <img src={avatar} alt="Avatar" />
+                <img src={avatar} alt={`Certificate ${index + 1}`} />
               </div>
             </SwiperSlide>
           ))}
@@ -118,79 +92,24 @@ const Testimonials = () => {
         <div className="back"></div>
       </div>
 
-      <Box sx={{ maxWidth: 598, flexGrow: 1 }} className="cent">
-        <Paper
-          square
-          elevation={0}
-          sx={{
-            display: "flex",
-            alignItems: "center",
-            height: 50,
-            pl: 2,
-            bgcolor: "background.default",
-          }}
-        >
-          <Typography>{images[activeStep].label}</Typography>
-        </Paper>
-        <AutoPlaySwipeableViews
-          axis={theme.direction === "rtl" ? "x-reverse" : "x"}
-          index={activeStep}
-          onChangeIndex={handleStepChange}
-          enableMouseEvents
-        >
-          {images.map((step, index) => (
-            <div key={step.label}>
-              {Math.abs(activeStep - index) <= 2 ? (
-                <Box
-                  component="img"
-                  sx={{
-                    display: "block",
-                    maxWidth: 598,
-                    overflow: "hidden",
-                    width: "100%",
-                    aspectRatio: "1/1",
-                  }}
-                  src={step.imgPath}
-                  alt={step.label}
-                />
-              ) : null}
+      <Swiper
+        className="cent container testimonials__container"
+        modules={[Pagination, Navigation, Autoplay]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        navigation
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
+      >
+        {images.map(({ imgPath, label }, index) => (
+          <SwiperSlide key={index} className="testimonial">
+            <div className="client__avatar">
+              <img src={imgPath} alt={label} />
             </div>
-          ))}
-        </AutoPlaySwipeableViews>
-        <MobileStepper
-          steps={maxSteps}
-          position="static"
-          activeStep={activeStep}
-          nextButton={
-            <Button
-              size="small"
-              onClick={handleNext}
-              disabled={activeStep === maxSteps - 1}
-            >
-              Next
-              {theme.direction === "rtl" ? (
-                <KeyboardArrowLeft />
-              ) : (
-                <KeyboardArrowRight />
-              )}
-            </Button>
-          }
-          backButton={
-            <Button
-              size="small"
-              onClick={handleBack}
-              disabled={activeStep === 0}
-            >
-              {theme.direction === "rtl" ? (
-                <KeyboardArrowRight />
-              ) : (
-                <KeyboardArrowLeft />
-              )}
-              Back
-            </Button>
-          }
-        />
-      </Box>
+            <h5 className="client__name">{label}</h5>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </section>
   );
 };
