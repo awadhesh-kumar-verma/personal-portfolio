@@ -60,7 +60,7 @@ const About = () => {
                 <span className='som'>&raquo;</span> I have the ability🚰to work with <span className='som'>C</span>, <span className='som'>C++</span>, <span className='som'>python</span>, <span className='som'>DSA</span> and <span className='som'>MERN Stack Development</span>, Can work well under pressure and make the best😑of any situation and Passionate individual with great <span className='som'>interpersonal and communication🎯skills</span>.
                 <br/>
                 <br/>
-                <span className='som'>&raquo;</span> Feel free🆓to explore my projects on <span className='som'>Github</span> and connect with me on <span className='som'>LinkedIn</span>😑.
+                <span className='som'>&raquo;</span> Feel free🆓 to explore my projects on <span className='som'>Github</span> and connect with me on <span className='som'>LinkedIn</span>😑.
             </p>
 
             <Tooltip title="LinkedIn" >
