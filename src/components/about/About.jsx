@@ -54,7 +54,7 @@ const About = () => {
                 </div>
             </div>
             <p className='intro' >
-                <span className='som'>&raquo;</span> Hi,I'm <span className='som'>Awadhesh Kumar Verma!</span> 🚀, a passionate and motivated <span className='som'>MERN Stack Developer</span> 💻with a strong problem solving mindset🤝, Pursuing <span className='som'>Bachelor's degree</span>(B.Tech) via <span className='som'>Computer Science</span>💻.
+                <span className='som'>&raquo;</span> Hi,I'm <span className='som'>Awadhesh Kumar Verma!</span> 🚀, a passionate and motivated <span className='som'>MERN Stack Developer</span> 💻with a strong problem solving mindset🤝, completed <span className='som'>Bachelor's degree</span>(B.Tech) in 2024 via <span className='som'>Computer Science</span>💻 from <span className='som'>Institute of engineering and rural technology</span>, Prayagraj.
                 <br/>
                 <br/>
                 <span className='som'>&raquo;</span> I have the ability🚰to work with <span className='som'>C</span>, <span className='som'>C++</span>, <span className='som'>python</span>, <span className='som'>DSA</span> and <span className='som'>MERN Stack Development</span>, Can work well under pressure and make the best😑of any situation and Passionate individual with great <span className='som'>interpersonal and communication🎯skills</span>.
